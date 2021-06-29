@@ -1,0 +1,4087 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite 1.0//EN" [
+
+    <!ENTITY apos         CDATA "&#x2019;"             -- 1729 -->
+    <!ENTITY bdquo        CDATA "&#x201E;"             -- 38 -->
+    <!ENTITY florin       CDATA "&#x0192;"             -- 2 -->
+    <!ENTITY nbsp         CDATA "&#x00A0;"             -- 3 -->
+    <!ENTITY ndash        CDATA "&#x2013;"             -- 1477 -->
+    <!ENTITY rdquo        CDATA "&#x201D;"             -- 21 -->
+
+]>
+<TEI.2 lang=nl-1900>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Ghetto: Burgerlijk Treurspel in 3 Bedrijven</title>
+<author key="Heijermans, Herman" ref="https://viaf.org/viaf/32107862/">Herman Heijermans (1864&ndash;1924)</author>
+<respStmt><resp lang=en>Transcription</resp> <name key="Hellingman, Jeroen">Jeroen Hellingman</name></respStmt>
+</titleStmt>
+<publicationStmt>
+<publisher>Project Gutenberg</publisher>
+<pubPlace>Urbana, Illinois, USA.</pubPlace>
+<idno type=OLN>#####</idno>
+<idno type=OLW>#####</idno>
+<idno type=OCLC>#####</idno>
+<idno type=LibThing>#####</idno>
+<idno type=PGclearance>20181030122310heijermans</idno>
+<idno type=PGDPProjectId>projectID5bdd8a0569ad5</idno>
+<idno type=PGSrc>65535-Heijermans-Ghetto</idno>
+<idno type=epub-id>urn:uuid:40c81b41-aec6-448a-887d-a059413f33b5</idno>
+<idno type=PGnum>65535</idno>
+<date>2021-06-05</date>
+<availability lang=nl>
+<p>&availability.nl;
+
+<p>Dit eBoek is geproduceerd door het on-line gedistribueerd correctieteam op <xref url="https://www.pgdp.net/">www.pgdp.net</xref>.
+
+</availability>
+</publicationStmt>
+<notesStmt>
+    <note type=Description>#####<!--Een korte beschrijving van dit document.--></note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<author>Herm. Heijermans Jr.</author>
+<title>Ghetto: Burgerlijk Treurspel in 3 Bedrijven</title>
+<date>1899</date>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc lang=nl>
+    <p>Dit boek is weergegeven in oorspronkelijke schrijfwijze. Afgebroken woorden aan het einde van de regel zijn stilzwijgend hersteld. Kennelijke zetfouten in het origineel zijn verbeterd. Deze verbeteringen zijn aangegeven in de colofon aan het einde van dit boek.</p>
+</encodingDesc>
+<profileDesc>
+    <langUsage lang=nl>
+        <language id=nl-1900>Nederlands (Spelling De Vries-Te Winkel)</language>
+        <language id=nl>Nederlands</language>
+        <language id=en>Engels</language>
+        <language id=de>Duits</language>
+    </langUsage>
+    <textClass>
+        <keywords>
+            <list>
+                <item>#####</item>
+            </list>
+        </keywords>
+    </textClass>
+</profileDesc>
+<revisionDesc>
+    <list>
+        <item>2021-05-14 Begonnen.
+    </list>
+</revisionDesc>
+</teiHeader>
+<text rend="stylesheet(style/classic.css)">
+<front id=frontmatter>
+<div1 id=cover type=Cover>
+
+
+<p><figure id=cover-image rend="image(images/new-cover.jpg)">
+<figDesc>Nieuw ontworpen voorkant.</figDesc>
+</figure>
+
+
+<pb>
+<div1 id=titlepage type=TitlePage>
+
+
+<p><figure id=titlepage-image rend="image(images/titlepage.png)">
+<figDesc>Oorspronkelijke titelpagina.</figDesc>
+</figure>
+
+
+
+
+
+<pb>
+<div1 id=french type=FrenchTitle>
+
+
+<p rend="align(center) font-size(large)">GHETTO.
+
+
+
+<pb>
+<div1 id=copyright type=Copyright>
+
+
+<p rend="align(center)"><hi>Het recht van opvoering voorbehouden volgens de Wet van 28 Juni 1881 (Staatsblad no. 124).</hi>
+
+
+
+<pb>
+
+<titlePage>
+<docTitle><titlePart>GHETTO.</titlePart>
+
+<titlePart type=sub>BURGERLIJK TREURSPEL</titlePart>
+
+<titlePart type=sub><hi>in 3 Bedrijven</hi></titlePart>
+</docTitle>
+
+<byline>DOOR
+
+<lb><docAuthor>HERM. HEIJERMANS J<hi rend=sup>R</hi>.</docAuthor>
+</byline>
+
+<!-- [Illustration] -->
+
+<docImprint>AMSTERDAM. &ndash; S. L. VAN LOOY.
+
+<lb><docDate>1899.</docDate>
+</docImprint>
+</titlePage>
+
+
+
+<pb>
+<div1 id=personae type=CastList>
+
+
+<p>Voor de eerste maal opgevoerd door de &bdquo;<hi rend=sc>Nederlandsche Tooneelvereeniging</hi>&rdquo; te Amsterdam op Zaterdag 24 December 1898.
+
+
+<castList>
+    <head>DRAMATIS PERSONAE.</head>
+
+    <castItem><role id=sachel><hi rend=sc>Sachel.</hi></role></castItem>
+    <castItem><role id=rafael><hi rend=sc>Rafaël</hi></role>, <hi>zijn zoon</hi>.</castItem>
+    <castItem><role id=esther><hi rend=sc>Esther</hi></role>, <hi>zijn zuster</hi>.</castItem>
+    <castItem><role id=aaron><hi rend=sc>Aaron.</hi></role></castItem>
+    <castItem><role id=rebecca><hi rend=sc>Rebecca.</hi></role></castItem>
+    <castItem><role id=haezer><hi rend=sc>Rebbe Haëzer.</hi></role></castItem>
+    <castItem><role id=rose><hi rend=sc>Rose.</hi></role></castItem>
+    <castItem><role id=jood><hi rend=sc>Een jood.</hi></role></castItem>
+    <castItem><role id=bewoner><hi rend=sc>Een bewoner.</hi></role></castItem>
+    <castItem><role id=grijsaard><hi rend=sc>Een grijsaard.</hi></role></castItem>
+</castList>
+
+<p><hi>Bewoners der Jodenwijk.</hi>
+
+
+
+<pb id=pb1 n=1>
+</front>
+<body>
+<div1 id=b1 type=Act>
+<head>EERSTE BEDRIJF.</head>
+
+
+<stage type=setting><hi>De bedompte uitdragerswinkel van Sachel. Het is avond. Er brandt een kleine olielamp.</hi></stage>
+
+
+<div2 id=t1.1 type=Scene>
+<head>EERSTE TOONEEL.</head>
+
+
+<stage><hi>Sachel.</hi> <hi>Rose.</hi> <hi>Een jood.</hi></stage>
+
+
+<sp who=jood>
+<speaker><hi>Een jood.</hi></speaker> <p>Goeienavond..... <stage rend=inline>(<hi>knoopt een pak los</hi>).</stage> Warm. &apos;t Is om &apos;r bij neer te vallen. Is Esther &apos;r niet?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Esther is uit.
+</sp>
+
+<sp who=jood>
+<speaker><hi>Een jood.</hi></speaker> <p>Hoe wou jij dan helpen?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Geef &apos;t maar hier. Ik zie beter met mijn handen dan jullie met je oogen. <stage rend=inline>(<hi>het goed betastend</hi>).</stage> Niks. Geen cent waard. Heelemaal niks. Prullen.
+</sp>
+
+<sp who=jood>
+<speaker><hi>Een jood.</hi></speaker> <p>Geen cent waard? En Esther heit &apos;r me de vorige keer twee gulden op gegeven!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Twee gulden? Twee gulden! Daar had <pb id=pb2 n=2>ik bij motten wezen! As &apos;k tien stuiver geef is &apos;t al mooi. Allemaal versleten goed...
+</sp>
+
+<sp who=jood>
+<speaker><hi>Een jood.</hi></speaker> <p>As je kinderen &apos;r maar nooit gebrek an zullen hebben! Noem je die jas versleten? Noem je die broek versleten? kan wel merken dat u &apos;r geen kijk op heit.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Ik vergis me niet. M&apos;n vingers verstaan &apos;t. Die zién. Die zién. De knoopsgaten zijn heelemaal uitgerafeld en wat heb &apos;k an &apos;n broek met afgetrapte randen?
+</sp>
+
+<sp who=jood>
+<speaker><hi>Een jood.</hi></speaker> <p>Noem u dat uitgerafeld? Noem u dat afgetrapt? Was uw zuster maar hier! Wat doe &apos;k met al die redeneering!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Rose &ndash; kom is hier. Bekijk die jas is bij de lamp. Heb &apos;k recht as &apos;k zeg dat-ie versleten is?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <stage rend=inline>(<hi>De jas bekijkend</hi>).</stage> <p>Mooi is-ie niet. Maar zoo erg versleten, zoo héel erg....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <stage rend=inline>(<hi>nijdig.</hi>)</stage> <p>Wat niet versleten! Ben jij blind? Houen jullie me voor de gek! Had ik me óógen, dan had ik jou niet noodig, jou niet, niemand niet! Is &apos;t niet ongelukkig genoeg dat &apos;k blind ben? An me vijanden ben ik overgeleverd. Nou staan ze mekaar an te kijken of &apos;k &apos;t zoo zie! Dievetuig! Maar bestelen laat ik me niet! Nog niet voor &apos;n cent! Geef hier die <pb id=pb3 n=3>jas! <stage rend=inline>(<hi>betastend</hi>).</stage> De knoopsgaten zijn kapot.... Hier is &apos;n heele plek waar de wol &apos;r af is.... En de voering.... de voering.... kijk die gescheurde voering!.... En zoo&apos;n stomme os ziet niks, wil niet zien!... Geven we je daarvoor te vrèten dat je mijn in me zak liegt!
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Ik lieg niet....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Jij liegt! Jullie liegt allemaal!
+</sp>
+
+<sp who=jood>
+<speaker><hi>Een jood.</hi></speaker> <p>Wat doe &apos;k met al dat geklets! Maakt Esther ooit zoo&apos;n spektakel? Geef me <corr sic=hondervijftig>honderdvijftig</corr> centen en &apos;t is uit!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>&apos;n Daalder? &apos;n Cent &apos;n kwaje dag meer as vier kwartjes.
+</sp>
+
+<sp who=jood>
+<speaker><hi>Een jood.</hi></speaker> <p>Vier kwartjes? Dank je wel! Dan pak &apos;k &apos;t weer in.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Ga je gang! Ik zal me geld in &apos;t water gooien! &apos;k Kom &apos;r ook niet met stelen an....
+</sp>
+
+<sp who=jood>
+<speaker><hi>Een jood.</hi></speaker> <p>Nou, laten we zeggen vijf kwartjes. Ik heb &apos;t hard noodig, me vrouw is ziek. Anders kreeg je &apos;t nog voor geen drie gulden....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Al was je heele familie ziek ik geef niet meer as vier kwartjes. Vodden! Vuiligheid! Voor mijn part neem je &apos;t weer mee. &apos;t Zal me zorg zijn! Vraag wat &apos;t mijn hindert. Wat begin ik nou!
+</sp>
+
+<pb id=pb4 n=4><sp who=jood>
+<speaker><hi>Een jood.</hi></speaker> <p>Ik heb al m&apos;n levensdagen nog nooit zoo&apos;n hond gezien &ndash; weigert &apos;n kwartje meer voor &apos;n zieke vrouw <stage rend=inline>(<hi>inpakkend</hi>).</stage> Dan breng &apos;k &apos;t naar Levi! Die heit nog &apos;n beetje meelijden met &apos;n ongelukkig mensch!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Me zorg. Laat Levi z&apos;n heil d&apos;r in zien. Zoo&apos;n rommel zal me afgestolen worden!
+</sp>
+
+<sp who=jood>
+<speaker><hi>Een jood.</hi></speaker> <p>In Godsnaam! Og wat &apos;n uitzuiger!
+
+
+
+<div2 id=t1.2>
+<head>TWEEDE TOONEEL.</head>
+
+
+<stage><hi>Sachel.</hi> <hi>Rose.</hi></stage>
+
+
+<sp who=sachel>
+<speaker><hi>Sachel</hi></speaker> <stage rend=inline>(<hi>snauwend</hi>).</stage> <p>Haast je &apos;n beetje dat je klaar komt! Stommeling! Te beroerd om voor de duvel te dansen! Je had toch kunnen hélpen met te zeggen dat &apos;t niks waard was! Je vreet &apos;r toch van mee! As ik &apos;n jódenmeid had &ndash; die &ndash; die zou léeper zijn.
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose</hi></speaker> <stage rend=inline>(<hi>schuw</hi>).</stage> <p>Als &apos;k &apos;n jodin was had &apos;k ook moeten zeggen dat de jas zoo slecht niet was.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Wàt moeten? Wie vraagt je wat? Wie, hè? Hè?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Ik lieg niet.... Dat doe &apos;k niet....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Hou je bek! As je tien jaar bij me ben, <pb id=pb5 n=5>begrijp je nòg niks! &apos;t Zit niet in jùllie kop. &apos;t Is er niet in te gieten. Wat draai je nou? Je heb niet noodig in die hoek... Wat scharrel je?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Ik veeg &apos;t vuil bij mekaar.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Jij veegt? Jij veegt? Luilakken doe je, tijd vermorsen, dagdieven! &ndash; &apos;n Goeie jas, &apos;n kostelijke jas. &ndash; Ongeluk brengen jullie an. Geen haar zegen. Schiet op! Sta me niet an te kijken! <stage rend=inline>(<hi>Stilzwijgen</hi>).</stage> Was jij op van nacht?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Nee!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Waarom schrik je?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Ik schrik niet.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Leugen! Leugen! Wát dee je op?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Ik ben niet op geweest.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Ik heb &apos;t gehoord. De klok had geslagen. Je liep op je kousen, op de trap, in de gang.
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose</hi></speaker> <stage rend=inline>(<hi>schuw</hi>).</stage> <p>Niet waar..... Ik heb geslapen, ben &apos;t bed niet uit geweest.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Je liegt! Ik heb hóóren loopen.
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Ik niet.... Ik niet....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Je deur heeft gekraakt &ndash; je ben in de gang geweest en de trap af tot an de deur van de winkel. &ndash; Die was op slot. Diè was <pb id=pb6 n=6>op slot! Wat woù je? Ik laat me niet bestelen. As &apos;k iets mis al is &apos;t de knop van &apos;n speld, dan, dàn, dàn ben je &apos;r bij, dan ben j&apos;r voor jàren bij &ndash; versta je....
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>.... Ik bèn niet opgeweest.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Kom hier! Heelemaal hier. Dichter bij. Nog dichter. Waar is je hand? Zoo. Zeg &apos;t nou nòg is!
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose</hi></speaker> <stage rend=inline>(<hi>angstig</hi>).</stage> <p>Ik ben niet opgeweest! Waarachtig niet. Geen oogenblik. Ik heb....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Je liegt! Je hand beeft! Tuig! Tuig! Maar ik lèt op je. Geen beweging maak je, of &apos;k zie &apos;t. En as &apos;k je snap, laat &apos;k je &apos;r uit slèpen of &apos;k zal geen gezond uur meer hebben!
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose</hi></speaker> <stage rend=inline>(<hi>voortwerkend</hi>).</stage> <p>Ik zou niet weten, waarom ik op zou staan &ndash; wàt &apos;k in de winkel zou noodig hebben.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Jij zou niet weten! Jij! Bij tijjen willen jullie me doen gelooven, dat &apos;k gek ben, heet je liegen wat m&apos;n óoren zien! Dat God jullie straffe met mijn straf, dat jullie oogen wegkwijnen zooas de mijne weggekwijnd zijn, dat jullie zoeken in die verdomde nacht, zooas ik zoek elk uur, elken dag! Het is om te huilen! Het is om je handen te heffen tegen God &ndash; altijd <pb id=pb7 n=7>nacht en vijanden om je heen, vijanden die je niet zièt, vijanden die zich niet hoeven te verbergen, vijanden die spotten zonder dat je d&apos;r spot ziet, vijanden die lachen zonder dat je d&apos;r lach ziet, vijanden die je vóélt, hier, daar, overal, vijanden met stemmen, waarin de leugen gevreten ligt...
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>.... Ik ben geen vijand.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Ik ken jou niet, weet niet wie jij ben. Nooit zag ik je gezicht, nooit je oogen. Pas heb je tegen me samen gespannen met die kleeren, misschien wat van &apos;m angenomen! Je stond zoo dicht bij &apos;m.....
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Nee! Niewaar!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>En vannacht heb &apos;k je hóóren loopen. Wat dee je? Wat wou je? Je hàd niet op te zijn. Wat dee je op de trap en benejen? Daar denk ik over, daar tob &apos;k over òmdat je liegt. Nòu zit &apos;r wat achter. As je gezegd had: ik wàs op, ik was ziek &ndash; dan &ndash; had &apos;k je geloofd, was &apos;t uit geweest, heelemaal uit. Maar je wil me wijsmaken dat &apos;k niks gehoord heb! Ik niks hooren! Ik, die op m&apos;n ooren leef!
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose</hi></speaker> <stage rend=inline>(<hi>aarzelend</hi>)<corr>.</corr></stage> <p>Ik was ziek &ndash; vannacht.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Dus je wàs op.
+</sp>
+
+<pb id=pb8 n=8><sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Ik was....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Waaróm zeg je dat noù pas?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Ik weet &apos;t niet. Ik was bang.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Bang voor wàt?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Bang voor.... Bang voor.... Ik kan me niet bewegen of &apos;k wor afgesnauwd.... Ik durf niks meer zeggen... Ik was bang &ndash; omdat &apos;k dacht je wakker gemaakt te hebben.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Zoo. Zoo. Maar de tràp. Wat dee je op de trap?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Dat herinner &apos;k me niet....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Ik vertrouw jou niet... Jij ben &apos;s nachts nooit ziek.... En je liegen, je verdomde liegen.... Je kon wel &apos;n ànder plan gehad hebben...
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>&apos;n Plan?....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Praat niet zoo onnoozel! Wie zegt me dat je niet stelen wou? <stage rend=inline>(<hi>Stilzwijgen</hi>).</stage> Nou? Zeg je niks?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Wàt moet &apos;k zeggen?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Zoo. Zoo. Ze houdt d&apos;r mond. Dan weet ze dat &apos;k héélemaal in &apos;t donker zit. &ndash; Nou? Nou?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Ik heb niks te zeggen. &apos;t Is te geméén om zoo iets te denken.
+</sp>
+
+<pb id=pb9 n=9><sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Te gemeen? Te gemeen! Gemeen is &apos;n ouwe man bedriegen en beliegen.
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Dat heb &apos;k nooit gedaan.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Ik vertrouw jullie niet, me zuster niet, me zoon niet, niemand niet! Tuig, allemaal tuig!
+</sp>
+
+
+
+
+<div2 id=t1.3>
+<head>DERDE TOONEEL.</head>
+
+
+<stage><hi>Sachel.</hi> <hi>Rose.</hi> <hi>Esther.</hi></stage>
+
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Wat schreeuwt-ie nou weer? Je ben op &apos;n uur afstand te hooren. De buren motten wat van ons denken<corr sic="..,">...</corr>.
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>De buren! De buren! Wat gaan mijn de buren an!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Wat hem de buren angaan? Nee, wat zeg je me daàr van? Wat hèm de buren angaan?... &apos;k Zou zegge dat ze je niks angaan! Og, is me dàt &apos;n spektakel! Lastige ouwe man! &apos;t Verstand komt ook niet met je jaren!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Jullie zijn me haast kwijt. Je heb zoo lang niet meer last van me!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Wie legt je wat in de weg! Wie doet je wat? Jij schreeuwt maar. Jij schreeuwt &apos;t heele <pb id=pb10 n=10>huis bij mekaar. As je dan schreeuwt, schreeuw dan met reden.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Met rèden? Dùizende redene heb &apos;k. Was daar niet &apos;n koopman hier met &apos;n partijtje negotie en jaagt zoo&apos;n stomme meid &apos;m de deur niet uit? Blijf jij daar kalm bij. Zeg jij dan niks!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Wat heit zij d&apos;r van noodig?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>As &apos;k &apos;r vraag om &apos;t bij de lamp te bekijken, zeit ze dat &apos;t zoo slecht niet is &ndash; as ze pas heit hoore zeggen dat de franje &apos;r bij hangt.
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Ik wist niet beter.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>En às ze &apos;t gedaan heit, lastige ouwe, dee ze &apos;t toch niet met opzet? Wor je arm van eén partijtje? In gosnaam stràkkies wat anders! Hóe kan &apos;n blinde zich zóo te doen maken? Wat schiet je &apos;r mee op?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>.... Pràte jullie maar.... Ik voel wat ik voel. Ik heb &apos;t bij mekaar geschraapt uit hoeken en gaten. Krom heb &apos;k gelegen voor die paar centen. Me vrouw zaliger, diè, dié, heit me gehòlpen tot an d&apos;r sterfbed. Jùllie verstaan de handel niet. &apos;n Zoon die nooit bij de affaire is, <pb id=pb11 n=11>&apos;n zuster die álles te duur inkoopt, as &apos;k &apos;r niet bij zit, as &apos;k niet elke rooie duit met tàngen vasthou! Bloed zweet &apos;k!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Zweet wat anders! Hij zweet bloed! Zweet geen bloed, nar! Alles komt terecht as je maar niet lastig ben &ndash; Doe de luiken voor de ramen, Roos.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Zij niet. Dat mot jij doen of Rafaël. Zij verstaat &apos;t niet.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Verstaat zij &apos;t niet? Doet ze &apos;t niet èlke avond? Wat mankeert je toch? Ga maar je gang, Roos.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Zij niet! Zij niet! As ze de pennen vergeet.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Die vergeet ze toch nooit!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Stoor je niet an me! Groot gelijk. Tot &apos;t te laat is.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>God allemachtig &ndash; wat heit die man &apos;t van avond op z&apos;n heupen. <stage rend=inline>(<hi>Rose doet de luiken voor</hi>).</stage> D&apos;r komt zeker onweer los met die warmte. Ik heb &apos;t hòndswarm. Zouen we niet beter doen voor de deur &apos;n <corr sic="luch-ie">luchie</corr> te scheppen?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Dank jou voor je luchie. Ik heb ijskouwe voeten.
+</sp>
+
+<pb id=pb12 n=12><sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>IJskouwe voeten? Hoe is &apos;t mogelijk? Hoe komt iemand an ijskouwe voeten? D&apos;r hangt &apos;n lucht om te stikken. Ik zweet me dood. <stage rend=inline>(<hi>gaat bij de onderdeur zitten</hi>).</stage>
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Heb je gekeken of de pennen....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Maak je maar niet ongerust. Alles komt in orde.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Op &apos;t linkerraam zit-ie nog niet.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Ze zal &apos;m &apos;r wel opdoen....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Ben je bij Abram geweest?
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>&apos;n Loop voor niks! Hij had de heele boel verkocht. Vanmiddag al.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Was Rafaël &apos;r dan niet geweest?
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Rafaël? Rafaël? As-diè wat belooft, komt &apos;r toch niks van! Was &apos;r heelemaal niet geweest! Je mot &apos;t van je kinderen hebben. &apos;t Geeft me wonder dat-ie nog thuis komt eten. &apos;k Zal z&apos;n eten op de stoep zetten, dan hoeft-ie niet binnen te kommen.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Had &apos;r zelf heengegaan van morgen!.... &apos;n Heele partij goed naar de maan!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Og, wat zal &apos;k antwoord geven op jouw gezanik! Mot ik jóuw zoon achterna loopen? <pb id=pb13 n=13>&apos;k Heb niet genog te doen! Kan ik helpe dat-ie te lui is om &apos;n voet te verzetten? Zoo&apos;n leeglooper! As-die eenmaal belooft om bij Abram an te gaan, kan ik dan ruike dat-ie niet gaat? &apos;k Zal &apos;m an &apos;n handje nemen! &apos;k Zal &apos;m op me arm d&apos;r naar toe dragen! Wat zegje me daàr van!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Met al jouw gesmoes &ndash; de pen is nog niet op &apos;t raam...
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Wat wil die man toch van avond van die pen! Ze halen hier niks weg. En mijn zeker niet, want ik eet te veel. En as ze jou stelen brengen ze je over &apos;n uur terug. Je ben te lastig. Ben je klaar<corr sic=.>,</corr> Roos?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Alles is klaar. Heb u mij nog noodig?
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Zet water op voor de koffie. En kom ook &apos;n luchie scheppen. &apos;t Is om te bezwijken. En... en... geef me broer &apos;n heete stoof voor z&apos;n kouwe voeten!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Spot maar! Spot met &apos;n blind man! Ik ben nog niet genoeg bezocht!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Daar heb je me waarachtig Aaron! Wat doe jij hier?
+</sp>
+
+
+
+
+<pb id=pb14 n=14>
+<div2 id=t1.4>
+<head>VIERDE TOONEEL.</head>
+
+
+<stage><hi>Aaron.</hi> <hi>Esther.</hi> <hi>Sachel.</hi> <hi>Rose.</hi></stage>
+
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Wat ik hier doe? &apos;k Heb &apos;n beetje handel.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Mot je daarvoor zoo laat kommen? &apos;t Is kinderen-bedtijd.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Kinderenbedtijd? Noem je tien uur kinderenbedtijd? Voor handel is &apos;t nooit te laat. Al wou &apos;k in de nacht kommen! Wat zeg jij, Sachel? Ik zal &apos;t nooit vergeten, toen we jong waren, dreven we in &apos;t hartje van de nacht nòg handel. En wat &apos;n gezegende tijd. Weet je Sachel met die verkooping van de marine, hoe we om vier uur &apos;s morgens opzaten met Jozef en Meyer? Toen konden we zeggen: we hebben &apos;n paar centen verdiend &ndash; kwamen we met &apos;n stuk geld thuis. Nou is de handel gedaan. Ze weten nie-meer wat handel is! &apos;t Wordt armoe troef.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Beklaag je! Klagers hebben geen nood. Je kan nog &apos;n boel van je vet verliezen vóor je mager wordt.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Waar staat geschreven dat &apos;k me vet mot verliezen? <stage rend=inline>(<hi>tot Sachel</hi>)</stage> &apos;k Heb &apos;n partijtje afval van wol.
+</sp>
+
+<pb id=pb15 n=15><sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Afval van wol? Niks voor mijn.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Niks voor jou? Hij weet nog niet eens wat &apos;t is! &apos;k Heb &apos;n monstertje meegebracht. &apos;t Laat zich aardig fijn voelen.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Niks voor mijn. D&apos;r loopt &apos;n katoenen draad door! Hoor hoe &apos;t kraakt as je &apos;t scheurt.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Maak mijn wat wijs. Geen krummel katoenen draad! Wat zeg jij, Esther?
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Geen katoenen draad? Noem je dàt wol? En dat?
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Is dat katoen? Je heb &apos;r geen verstand van! Dat noemt zij katoen! Kijk hoe &apos;t brandt! Ruikt dat na wol of na katoen? Je zal mijn wat opdringen! Nog geen pietsie zit &apos;r in! De fijnste wol! Over de heele wereld vin je zoo&apos;n fijne wol niet!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Hij maakt zich druk! Voor wie maak jij je druk? Toen &apos;k &apos;n kind van twee jaar was, wist &apos;k &apos;t onderscheid! Engelsch laken, anders niks!
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Engelsch laken? Zoo zal jij gelukkig blijven en ik &apos;n goeie week hebbe as dat Engelsch laken is!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Heb je niks anders....?
+</sp>
+
+<pb id=pb16 n=16><sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Is dàt dan niks? &apos;k Heb &apos;r &apos;n heele partij van &ndash; over de twintig pakken. Pracht van &apos;n goed. Reusachtig.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Niks voor mijn.
+</sp>
+
+<stage type=entrance>(<hi>Rose op met koffie</hi>).</stage>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Wi-je &apos;n bakkie koffie, Aaron?
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Geef me &apos;n kommetje.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>En &apos;n boterkoekie? Eigen gebak.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Geef me &apos;n brokkie.
+</sp>
+
+<stage>(<hi>Rose gaat bij de open deur zitten</hi>).</stage>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Smaakt ze? &apos;k Heb &apos;r anderhalf pond boter in.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Z&apos;is ook aardig fijn. &apos;t Is of me dochter Rebecca &apos;r geen slag van kan krijgen. Je heb &apos;n goeie hand van suiker. Rebecca maakt ze te zoet of heelemaal geen suiker. En altijd half gaar. Nooit zal ze zoo knappen as jouw koek. &ndash; Nou, hoe is &apos;t, kunnen we handelen?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Hoeveel mot je &apos;r voor hebben?
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Zeg jij wat ze jou waard is.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Ik doe geen bod. Jij kan beter vragen dan ik biejen.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Ach, wat motten wij &apos;r mee doen? Wat heb je &apos;r an? &ndash; Is je dochter Rebecca al beter?
+</sp>
+
+<pb id=pb17 n=17><sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Zoo gezond as &apos;n visch. Ze mankeert niks meer. Is Rafaël niet thuis?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Natuurlijk bij de weg.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Heit-ie ongelijk? Wat heit-ie hier? Wat mot zoo&apos;n jonge jongen altijd thuis zitten?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Wat had ìk toen &apos;k jong was? Wat had jìj toen je jong was? Op &apos;n klein kamertje woonde &apos;k met vijf broertjes en zussies en me ouwers en me grootmoeder. Gebrek en honger heb &apos;k gelejen. Gevòchten hebben we om &apos;n korst brood. Op &apos;n morgen ben &apos;k wakker geworden &ndash; met z&apos;n vieren sliepen we op de grond &ndash; en &ndash; en &apos;n zussie lag dood naast me. Ik zal &apos;t nooit vergeten &ndash; ik pakte d&apos;r hand &ndash; ijskoud was die. Dat voel &apos;k nòg! Van gebrek is me grootmoeder gestorven. In éen jaar zijn &apos;r drié kinderen begraven. Ik heb wat meegemaakt. &apos;t Is &apos;n wonder dat &apos;k nog léef, dat Esther nog leeft.... Wat heit zich mijn zoon te beklàgen? Die kent geen gebrek. Die kent geen zorg. De tijd is veranderd. Zoo vrij as &apos;n christen loopt-ie door de stad, komt op allemaal plaatsen waarvan ik nooit gedroomd heb, waar wij joden, vroeger, ons niet konden vertoonen. &apos;n Halve christen is-ie geworden. Ik beleef niet veel vreugd an <pb id=pb18 n=18>me zoon. Soms lijkt &apos;t of &apos;k heelemaal geen kind heb.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Je mot &apos;t zoo zwaar niet nemen. Jeugd, niks dan jeugd. As-ie maar eenmaal &apos;n mèissie heit.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Dat zeg &apos;k zoo dikwels. Maar hij kijkt niet naar meissies.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Dan motten júllie voor hèm kijken. &ndash; Nou, doen we handel? Wat is &apos;t je waard?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Waard is &apos;t me niks. Maar as &apos;k je &apos;r &apos;n plezier mee doe....
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Ja, je bewijst me daar &apos;n dienst! Overal kan &apos;k &apos;t kwijt.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Nou, dan niet. In Godsnaam!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Wi-je nog &apos;n kommetje?
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>As je heb.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Nog wel tien.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Wat blijft-ie uit!
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Wie?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Hij....
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Voor wat maak je je ongerust? &apos;t Is geen kind! Hij loopt in geen zeven slooten tegelijk.
+</sp>
+
+<pb id=pb19 n=19><sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Vanmorgen zou-die bij Abram angaan... Bij Abram is-ie niet geweest. De heele dag heb &apos;k &apos;m niet gezien. As &apos;m maar niks overkommen is.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>D&apos;r overkomt &apos;m wat! &apos;n Luilak! &apos;n Niksnut!
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>As-die maar eerst tróúwt.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Heb jij &apos;n meissie voor &apos;m an de hand?
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>D&apos;r zijn &apos;r zoo&apos;n boel. &apos;n Knappe jongen die centen anbrengt.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Centen? Centen? Ik klee me niet uit voor &apos;k naar bed ga.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Wat doet dat &apos;r toe? Rafaël is je eenige zoon. En je zal &apos;m toch wel wàt meegeven?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>As &apos;t meisje wat meebrengt.... Ik heb niet me heele leven gewerkt voor &apos;n vreemde.... Ik geef &apos;n andermans kind niet te eten.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Hij mot trouwen.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Ja &ndash; as die getrouwd is....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Trouwen? Met wie? Van mijn zaak kunnen geen twee gezinnen leven. De verdiensten leveren tegenwoordig nog al wat op! Ik zou wel willen dat-ie trouwde. Maar &apos;t meissie mot minstens vijfduizend gulden meebrengen. Geen cent minder.
+</sp>
+
+<pb id=pb20 n=20><sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Vijfduizend gulden! &apos;n Bagatel! Vijfduizend gulden! Mot &apos;n ander zich voor jóú uitkleejen? Wie geeft &apos;n meissie vijfduizend gulden mee? &apos;t Is daar &apos;n prinses! Jouw zoon is toch ook geen graaf? Hij durft! Wat &apos;n brutaaligheid!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Om wat maak jij je kwaad? &apos;t Is toch maar bij wijze van spreken?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>En &apos;k doe &apos;t geen cént minder dan vijfduizend! En as ze maar &apos;n kleinigheid mankeert, mot ze mèer inbrengen!
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Dat kan &apos;k nou niet uitstaan! Hij vraagt maar! En as &apos;r nou is iemand zoo gek is om z&apos;n dochter zoo&apos;n kapitaal mee te geven, wat krijgt jouw zoon dan?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Mijn zoon geef &apos;k niks. Die zit in de zaak.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Wat zeg je me daarvan? Hij wil zich niet uitkleejen voor die naar bed toe gaat en &apos;n ander zet-ie &apos;t mes op de keel. Wat &apos;n onzin! Dat gààt niet. Jij alles en &apos;n ander niks!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Waar bemoei jij je mee? Vraag ik jou wat?
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Nou &ndash; nee! &apos;t Zal mijn me zorg<corr sic=" &ndash; "> </corr>zijn. Nou, doe je &apos;n bod op de wol? Zoo&apos;n fijne <pb id=pb21 n=21>partij zie je in geen jaren terug. Voel wat &apos;n goed!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Jij weet beter wat &apos;t jou ingekocht kost.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Esther &ndash; zeg jij &apos;t.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Ik? God zal me beware! Ik zeg niks.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Zij zegt niks. Hij zegt niks. Zoo kommen we &apos;n boel verder. Wil je de heele partij in de roest?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Ik zou je danken.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Wat is &apos;t je dan waard?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Ik geef je twee gulden de honderd kilo.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Daar heb &apos;k jou voor noodig! Dank je wel! &apos;k Ben &apos;r met stelen an gekommen! Omdat &apos;r &apos;n klein stukkie Engelsch doorloopt kan je &apos;t krijgen voor vier.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Néé! Je wor bedankt. Voor vier kan je &apos;t van mijn krijgen.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Dan niet! &ndash; Wat is &apos;t kolossaal heet, hè? En die koffie maakt je zoo warm. Geef mijn nog &apos;n brokkie van je koek.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Je schijnt ze te lusten.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Hoe is &apos;t nou mogelijk dat mijn Rebecca <pb id=pb22 n=22>ze nooit goed maakt en anders mot je d&apos;r zien! &ndash; Wat doe je &apos;r allemaal in?
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Laat Rebecca maar is hier kommen, zal &apos;k &apos;t &apos;r wel leeren. Wat zal &apos;k &apos;t joù zeggen? Je heb &apos;r tòch geen verstand van. &apos;n Goed meissie is &apos;t, &apos;n goed meissie, je dochter. Waarachtig ik hou van &apos;r.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Dat zal waar wezen. De man die d&apos;r trouwt heit &apos;n huisvrouw an d&apos;r. Ze kan van alles, van alles! Met recht wat d&apos;r oogen zien, kennen d&apos;r handen. Je kan &apos;t zoo gek niet prakkizeeren of ze verstaat &apos;t. Ze wascht, ze plast, ze kookt, ze smookt! En piender in de winkel! Reusachtig. D&apos;r is geen vrouw die &apos;t &apos;r verbetert! Precies me vrouw zaliger. Tot d&apos;r eigen japonnen maakt ze. En je mot &apos;r zien schrijven! Kolossaal. &apos;n Rijkeluiskind doet &apos;t &apos;r niet na.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Da&apos;s allemaal mooi. Maar as ze geen geld heit blijft ze tòch zitten.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Geen geld? Geen geld? Je zal &apos;t èlk jaar overleggen wat &apos;k &apos;r mee geef.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>En wat kan jij &apos;r nou meegeven? Elke som geld heb je noodig voor je eigen zaak.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Nou &ndash; drie bankies van duizend heb &apos;k altijd voor d&apos;r over. <stage rend=inline>(<hi>Een stilzwijgen</hi>).</stage>
+</sp>
+
+<pb id=pb23 n=23><sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Puf! Wat is &apos;t heet! Kwam &apos;r maar &apos;n tochie! Verbeel je: hij heit ijskouwe voeten!
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Zal van &apos;t stilzitten kommen.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Drie bankies van duizend. Driè bankies..... Denk jij dat daar &apos;n rèchtschapen man voor komt?
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <stage rend=inline>(<hi>driftig</hi>).</stage> <p>En denk jij dat &apos;n vrouw met vijfduizend gulden voor jóuw zoon klaar staat?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>&apos;t Most mijn zoon niet overkommen &apos;n vrouw te nemen met drieduizend gulden!
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>En wie praat &apos;r van jóuw zoon? &ndash; Ik geef mijn dochter drieduizend en &apos;n uitzet van alles twaalf. &apos;k Hoef me hand niet om te draaien of an elke vinger heit ze d&apos;r tien. Ze is maar niet knap. &apos;n Aardig figuur en d&apos;r oogen! Oogen as &apos;n paar sterren. Geregeld &apos;n christen dame. Je mot &apos;r zien as ze angekleed is. Denken ze allemaal: &apos;t Is &apos;n fransche vrouw!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Ja dat weet ik &ndash; &apos;t is &apos;n engel. Ik heb &apos;t al zoo lang gezeid.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Nou, geef je drie gulden? Voor drie gulden heb je &apos;n koopie, verlies &apos;k &apos;r de helft an.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>&apos;k Denk &apos;r niet an. Wat &apos;k gezeid heb.
+</sp>
+
+<pb id=pb24 n=24><sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Dan doen we geen zaken &ndash; Waar blijft nou die Rafaël?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>God weet waar die zit.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Rebecca zou &apos;n tof meissie voor &apos;m zijn.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Ik geef geen vijfduizend gulden.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Jij geeft geen vijfduizend gulden en ik geef me zoon niet.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Hij geeft z&apos;n zoon niet! Die is goed! Heb ik joù wat gevraagd?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel</hi></speaker> <stage rend=inline>(<hi>nijdig</hi>).</stage> <p>Heb ik wat met joùw dochter
+noodig?
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Mijn dochter! Mijn dochter daar ben &apos;k trotsch op! D&apos;r naam mag ik noemen!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel</hi></speaker> <stage rend=inline>(<hi>nijdig</hi>).</stage> <p>Wat heb ik an al die praatjes! Doe jij met je dochter wat jij wil! Vraag ìk joù om raad?
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron</hi></speaker> <stage rend=inline>(<hi>nijdig</hi>).</stage> <p>Maakt &apos;n drukte van z&apos;n zoon! &apos;n Jongen die te lui is om z&apos;n pooten op te tillen, slentert de heele dag bij de weg!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Geef jij &apos;m te eten? Heb jij d&apos;r last van?
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>En voor zóó&apos;n jongen maakt-ie &apos;n bereddering van belang!
+</sp>
+
+<pb id=pb25 n=25><sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Jullie lijken wel gek! Voor wàt maak je je warm? Is &apos;t niet warm genog? Wat &apos;n onzin! Overleggen jullie kàlm. Wat &apos;n gekheid om je zoo op te winden! Rebecca is &apos;n gezegend meissie, Rafaël &apos;n goeie jongen, maar mot &apos;n flinke vrouw hebben, die &apos;m leidt. Redeneeren jullie verstandig. &apos;t Geld komt in orde. Sachel is zoo kwaad niet as-die d&apos;r uitziet. &apos;t Geeft wat duizend gulden meer of minder, &apos;t komt toch allemaal làter terecht?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Zij gééft! Wie geeft joù? Gooit met duizend gulden of &apos;t daar niks is!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Dwarskop, wat maak je je de sappel? As jij je eenige zoon an zijn eenige dochter geeft, blijft &apos;t toch in de fàmilie?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>En ik geef nou &apos;n andermanskind niet te eten!
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Wat zeg je me van zoo&apos;n stijfkop, van zoo&apos;n geweldenaar!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Laat &apos;m maar gaan, &apos;t komt wel in orde. Ik mot je eerlijk bekennen: beter meissie weet &apos;k niet voor &apos;m. Nou is Sachel &apos;r tegen en morgen dankt-ie God dat-ie &apos;t gedaan heit. Laat-ie &apos;r maar eerst over slàpen. Ik ken &apos;m.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Dat kan je begrijpen! D&apos;r komt hier <pb id=pb26 n=26>geen schoondochter onder de vijfduizend gulden over de vloer!....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Weet je wat je doet, deel &apos;t verschil!
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Dank je. Geen cent meer of minder. Drie duizend gulden en van alles twaalf. Wat zal &apos;k meer geven? &apos;t Is toch voor &apos;n begin? As &apos;k sterf krijgt ze toch àlles?
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Ik weet goeie raad: nemen jullie &apos;t &apos;n paar dagen in handen en zeg dan ja of nee.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Bedenken kost niks &ndash; maar ik doe &apos;t tòch niet.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther</hi></speaker> <stage rend=inline>(<hi>knipoogend tegen Aaron</hi>).</stage> <p>Laat maar gaan! As ik je nou zeg: &apos;t komt in orde.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Goed. Mijn goed. Dan tot overmorgen. Nou, de wol wil je niet hebben?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Voor de prijs die &apos;k genoemd heb.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>&apos;k Smijt ze nog net zoo lief in &apos;t water! Men kan met jou tegenswoordig niet meer handele! Doe &apos;r vijftig centen bij en ze is voor jou.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Geen cent!
+
+<sp who=esther>
+<speaker><hi>Esther<corr>.</corr></hi></speaker> <p>Praten jullie daar nou ook overmorgen <pb id=pb27 n=27>over. As &apos;t eene in orde komt, komt &apos;t andere vanzelf in orde. &apos;t Is nou toch zoo laat!
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Nou, goeien avond dan. Misschien ben je later beter te spreken.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Goeien avond.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Pas op val niet! Denk an &apos;t stoepie.
+</sp>
+
+
+
+
+<div2 id=t1.5>
+<head>VIJFDE TOONEEL.</head>
+
+
+<stage><hi>Esther.</hi> <hi>Sachel.</hi> <hi>Rose.</hi></stage>
+
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>D&apos;r komt niks van. Geen zier. &apos;k Heb &apos;m noódig! Og!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>&apos;t Mot toch éens gebeure? Wat wil je meer? &apos;t Is &apos;n knap meissie, &apos;t is &apos;n mooi meissie.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>En ik doe &apos;t niet. &apos;k Heb me heele leven lang de boel niet bij mekaar motten schràpen voor niks! &apos;k Heb de tijd!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Jij heb de tijd &ndash; jij &apos;n man op jaren? As je God-beware wat overkomt, weet je heelemaal niet wat-je krijgt.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Overkomt? Overkomt? Ik ga nog niet dood. Ik denk &apos;r niet an.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Veel kan je zeggen. Je ben elk oogenblik <pb id=pb28 n=28>in God&apos;s hand. Wie weet &apos;t eene uur wat &apos;t andere gebeurt.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel</hi></speaker> <stage rend=inline>(<hi>vinnig</hi>).</stage> <p>Daar wil ik niet over hooren. Hou je mond. Beschrie me niet! Ik ga nog niet dood. Waarom zou &apos;k dood gaan! Waarom? Je zou &apos;t wel willen, wat? Dan kon je doen en laten wat je wou. Dan had je de beschikking over alles. Dan kon je met &apos;t geld smijten, mijn geld, mijn gèld! Wat hebben jullie &apos;r voor gedaan? Niks! Doodvreters zijn jullie, jij, hij, allemaal!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Wat win je je nou weer op? Wie legt je &apos;n stroo in de weg.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel</hi></speaker> <stage rend=inline>(<hi>kort</hi>).</stage> <p>Praat dan niet van dood! Je maakt me niet bang. Ik bèn niet bang. Ik overleef jullie allemaal!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Zooveel te beter. Voor mijn part honderd jaar. Wat ben je weer làstig! Roos neem de koffieboel mee. Hoor je niet?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Ja, ja. Hier ben &apos;k.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Wat heb jij &apos;n rooie oogen. Heb je gehuild?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Ik? Nee. Hoe kom u &apos;r op?
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Heb jij nièt gehuild? Heb jij niet gehuild?
+</sp>
+
+<pb id=pb29 n=29><sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Nee. Verbeelding.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Je mot &apos;t zelf weten. Ga naar je bed.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Heb je de pennen op de luiken gedaan? Nou? Nou?
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Wat snauw je toch? De pennen zitten &apos;r op. Ga &apos;t zelf voelen as je &apos;t niet gelooft.
+</sp>
+
+    <stage type=exit>(<hi>Rose af</hi>).</stage>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Dat zal ik ook. Ik heb &apos;r m&apos;n reden voor. Vannacht heb &apos;k iemand hooren loopen.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Ik ook! En mot je dààrom die sjikse<note>Meisje. &ndash; <hi>Bewerker.</hi></note> zoo wantrouwen? Rafaël is op geweest.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Niet waar! Niet waar! Die meid was op!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Alles weisz me scheintje! &apos;k Zal je maar laten praten. Wat zal &apos;k me nog langer moeilijk maken met jou!
+</sp>
+
+
+
+<div2 id=t1.6>
+<head>ZESDE TOONEEL.</head>
+
+
+<stage><hi>Rafaël.</hi> <hi>Esther.</hi> <hi>Sachel.</hi> <hi>Rose.</hi></stage>
+
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Goeien avond. &ndash; Ik zeg goeien avond.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Dat hoor ik. Zeg liever, goeien nacht!
+</sp>
+
+<pb id=pb30 n=30><sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Goeien avond! Meneer zeit goeien avond. &apos;t Lijkt hier &apos;n kosthuis! Meneer doet ons de éér an om te kommen slapen!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Ik heb me verlaat. Ben je ongerust geweest, vàder? Vader? Hoor je me niet? Kun je geen antwoord geven? Ook goed.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Gelijk heit-ie dat-ie z&apos;n mond houdt. Van mijn kreeg je ook geen boe noch ba. Wat ben jìj voor &apos;n zoon? Zou bij Abram angaan &ndash; is niet bij Abram geweest! Je most mijn zoon wezen!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Waar heb jij uitgehangen?
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël</hi></speaker> <stage rend=inline>(<hi>verstrooid</hi>).</stage> <p>Wat doet &apos;t &apos;r toe? &apos;k Heb dat van Abram vergéten. &apos;t Spijt me. Met opzet heb &apos;k &apos;t niet gedaan.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Hij vertelt wat! Geen opzet &ndash; wél opzet! &apos;t Komt &apos;r wat op an!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>&apos;k Heb je gevraagd wáar je gezeten heb de godganschelijke dag &ndash; en je praat &apos;r om heen....
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Moet ik van àlles uitleg geven? Ik ben hier en daar en overal geweest &ndash; de tijd is omgevlogen. <stage rend=inline>(<hi>vermoeid</hi>)</stage> Heb je wat te eten, tante? &apos;k Heb honger.
+</sp>
+
+<pb id=pb31 n=31><sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Wou je dat &apos;k noù nog ging dekken? Ik zou je danken. Kom op je tijd.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Nou nog eten? Nou wordt &apos;r niet meer gegeten.
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Goed. &apos;k Zal zelf &apos;n stuk brood nemen.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>O God, wat straf je me zwaar op me ouwen dag overgeleverd an vreèmden! As je moeder-zaliger je zien kon, as ze zien kon hoe jij je blinden vader mishandelt, mis-han-delt, dan, dàn, dàn....
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël</hi></speaker> <stage rend=inline>(<hi>rustig</hi>).</stage> <p>Laat mijn moeder &apos;r buiten. Je hoeft geen herinneringen wakker te maken; vandaag &ndash; leef ik enkel in herinneringen. Ik was op &apos;t graf.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Hij was op d&apos;r graf! &apos;t Is toch geen jaartijd? Was &apos;r nièt gegaan....
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël</hi></speaker> <stage rend=inline>(<hi>haalt de schouders op</hi>)</stage> <p>.... Ik was op &apos;t graf ùren lang, heb zitten suffen en droomen. &apos;t Werd avond; de doodgraver heeft me opgeschrikt. Dat &apos;s alles. De zerk is weggezakt, vader. Je kunt de plek niet meer vinden. D&apos;r groeit van alles. &apos;k Heb wat bloemen meegebracht. Hier heb je ze. D&apos;r mag wel &apos;n nieuwe zerk komen.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Jij ben krankzinnig, jij ben gèk! Ik wil jouw bloemen niet! Wèg met jouw bloemen! <pb id=pb32 n=32>Was teruggekommen zooas &apos;t je pàste! Had niet je dag verluierd, je dag verdaan met onzin &ndash; ònzin, zeg ik je! Gister ben je niet thuis geweest, had je &apos;n uitvlucht! Eergister heb je geen vin verroerd! Zóo alle dagen die God geeft! Ben jij &apos;n zoon? Denk jij &apos;r an dat je &apos;n blinden vader heb, dat &apos;t ongeluk me vervolgt, dat Levi en Abram en zoo&apos;n koopman-van-niks as Aaron &ndash; alles naar zich toehalen, dat m&apos;n zaak verloopt, m&apos;n goeie zaak m&apos;n zaak, waarvoor ik gezweet heb, m&apos;n zaak, m&apos;n záák! Ik kan &apos;r bij huilen! Op m&apos;n ouwen dag kan &apos;k bedelen gaan! Heb &apos;k je daarvoor grootgebracht!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Trek &apos;t je toch niet zoo an! Mot je om zoo&apos;n zoon grienen?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>God straft me wel! Heb ik &apos;t brood uit me mond gespaard toen-die &apos;n kind was? Hebben z&apos;n moeder-zaliger en ik kromgelegen om &apos;m groot te brengen! Heeft-ie scholen bezocht en talen geleerd, waarvan wij nooit gehoord hebben! Hebben we ons uitgekleed voor &apos;m, bij &apos;m gewaakt as-die ziek was, ons alles ontzegd om &apos;t hém goed te laten gaan! En nou? Wat heb ik nou? Nou kan ik alléén rondwurmen! An niemand steun! Nou kan &apos;k vèrrèkken! Nou mot &apos;k wachten tot ze híér kommen met handel<pb id=pb33 n=33> &ndash; me laten bedriègen &ndash; me laten bestelen!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Dat &apos;s niet mijn schuld.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Niet zijn schuld! Ik kan &apos;m vasthouen! Ik kan &apos;m daar dwingen thuis te blijven en voor mijn te kijken!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>&apos;k Heb over al die dingen gedacht van middag, lang nagedacht &ndash; je heb gelijk, maar ànders worden kan &apos;t niet, nou niet, nooit meer.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Stapelmesjogge!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel</hi></speaker> <stage rend=inline>(<hi>hard</hi>).</stage> <p>En wáarom niet?
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Dat kan &apos;k niet zeggen....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Jij liègt! Jij heb iets buitenshuis, dat ik niet weten mag, dat je verbergt!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Nee.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Zeg op! Zeg op: je mag alles zeggen!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Geheimen? &apos;t Zullen me geheimen zijn! Nog geen dubbeltje zijn ze me waard! As die niks zeit, weet ik nog genog!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Op &apos;t graf van z&apos;n moeder heit-ie gedacht! Hahaha! Op &apos;t graf van je moeder most jij niet durven kommen!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Waarom zullen we zóó tegenover <pb id=pb34 n=34>elkander staan? Ik zal hier niet lang meer blijven, &apos;t je niet lastig maken.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Wat? Wàt zegt-ie?
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Schtos! Allemaal schtos!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Ik ga weg.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Jij gaat weg? Jij gaat weg? Zegt-ie dat Esther?
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>&apos;t Is beter vrindschappelijk van mekaar te gaan. Over heftige dingen heb je later spijt, altijd spijt....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Hahaha! Hahaha! Nou is alles in orde! O! O! O! Voel je dan niks as je m&apos;n oogen ziet?
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Vroèger gaven die me onrust, angst, wroeging &ndash; hoe zal ik &apos;t noemen? &ndash; vroeger had ik alles voor je kunnen doen, &ndash; in den tijd toen ìk jong, jij hulpeloos was &ndash; vroeger zou &apos;k geen oogenblik rust hebben gehad, als &apos;k tranen in je arme oogen had gezien &ndash; vroeger zou &apos;k me de haren uit &apos;t hoofd hebben getrokken bij de gedachte &ndash; ènkel bij de gedachte &ndash; je displeizier te doen &ndash; nou is dat ùit me &ndash; heelemaal ùit me &ndash; je heb &apos;t &apos;r uit getràpt!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Ik? Ik? Wat heb ìk joú gedaan? Wat? Wat?
+</sp>
+
+<pb id=pb35 n=35><sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Nee, ik wil je niks verwijten. Je ben &apos;r niet verantwoordelijk voor. Je heb &apos;t zèlf geleerd....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p><hi>Ik</hi> ga naar bed. <hi>Ik</hi> heb genog van die kinderpraat! Zal ik me nachtrust geven an zùlk gekles! Hij wil wèg: laat &apos;m gaan! &apos;k Dacht dat je wijzer was. Allemaal praatjes, uitvluchten, smoesjes! Mòrgen vraagt-ie je weer centen! Jouw zoon is &apos;n klaplooper &ndash; nou wéet je &apos;t!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Ze heit gelijk! Wat stoor ik me an joùw gekkepraat. Maar &apos;r komt &apos;n end an me geduld! &apos;k Heb &apos;t lang genoeg gekropt. Làng genoeg!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Dreig niet. Ik zei je dat ik &apos;n besluit genomen heb &ndash; &apos;n besluit dat zóó vaststaat, dat niemand &apos;r iets aan veranderen kan. Ik ga weg. Heel gauw. Ik maak jullie ongelukkig. Jullie mij. &apos;k Weet geen àndre oplossing.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Waàrom wil jij weg?
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël</hi></speaker> <stage rend=inline>(<hi>droevig</hi>).</stage> <p>Dat is mijn zaak.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Bloedhond! &apos;n Blinden vader an z&apos;n lot overlaten! God zal je &apos;r voor bezoeken!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Nee. Dat kàn niet. Ik voel me voor &apos;t eerst sinds jàren rustig &ndash; nou ik mijn weg ga, nou ik weet wàt &apos;k doen moet.
+</sp>
+
+<pb id=pb36 n=36><sp who=sachel>
+<speaker><hi>Sachel</hi></speaker> <stage rend=inline>(<hi>woest</hi>).</stage> <p>Maar de reden, de reden! Je heb toch je hersens! Je ben toch niet volslagen idioot! De reden! De reden!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>De reden &ndash; de reden. Sta je &apos;r zóo op? O, &apos;t zou voor ons beiden beter zijn, als &apos;k zweeg. Je wìl dat ik spreek? Dan zùl je hooren, dan zul je weten hoe &apos;k me hier ben gaan voelen als &apos;n ellendige, als &apos;n vreemde.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Ach wat &apos;n schtos! Wat doen we met die onzin!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Laat me uitspreken. Ik kijf niet, maak geen twist: zeg de dingen kàlm &ndash; als je &apos;t voelen kunt: wanhopig &ndash; &apos;t Is niet zoolang geleden &ndash; &apos;k denk twee, drie &ndash; &apos;k weet &apos;t niet &ndash; &apos;t Doet &apos;r niet toe. Ik was onnoozel, &apos;n jongen, &apos;n kind. En &apos;k hield van je, vader. &apos;k Hield zièlsveel van je. Als &apos;k je tasten zag door den winkel, de bergplaatsen, dan moest ik haast snikken. Had ik je niet gekend met je oogen vol leven en opgewekt? &apos;t Was zoo verschrikkelijk je àltijd in &apos;t donker te denken. Soms kneep ik m&apos;n oogen dicht, hield m&apos;n hand er voor om &apos;t licht af te sluiten &ndash; dan dacht ik: god, hoe schrikkelijk, hoe vreeselijk &ndash; hij heeft de dingen gekend zooals ik ze ken &ndash; nou moet-ie gissen, de vormen raden, de kleuren raden....
+</sp>
+
+<pb id=pb37 n=37><sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Hou je mond! Dát vraag ik je niet!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Toen kwam de dag.... &apos;n Vrijdag... &apos;k Was begonnen je in de zaak te helpen.... Je had &apos;n partij goed verkocht &ndash; &apos;k weet niet meer wàt. &ndash; De schuit lag voor de loods &ndash; de knechts stouwden de balen er in. &apos;k Ziè &apos;t gebeuren. Jij stond bij de weegschaal. Je zag me niet: had me niet hooren loopen. Nièmand zag me: &apos;k was in de scheemring van de loods. Jozef, de knecht, las &apos;t gewicht &ndash; zelf schreef je de getallen. Ik keek naar je met &apos;n zoo groote genegenheid, &apos;n zoo groot meelijden. Je had zooveel wil &ndash; je droeg &apos;t ongeluk zoo dapper. &apos;k Zag je vingers bevend bewegen over &apos;t papier &ndash; &apos;k wou naar je toekomen en zeggen: laat mij &apos;t schrijven &ndash; vermoei je niet. &ndash; Maar op eens zag ik iets, iets dat me dee schrikken, me terugdrong naar de scheemring van de loods. &apos;r Werd &apos;n baal gewogen &ndash; Jozef en de koopman bukten naar de gewichten &ndash; en terwijl &ndash; tastte je voet naar de scháal &ndash; bleef er op drùkken. Ze wogen je voet mee. Niemand lette op je. Ze hadden vertrouwen in je blinde oogen. Je stal. Je was &apos;n dief...
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Dat lieg je! &apos;k Zou me schamen zulke leugens te zeggen!
+</sp>
+
+<pb id=pb38 n=38><sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Laat &apos;m gaan... laat &apos;m uitspreken...
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Ik lieg niet! Loog ik maar! &ndash; Ik dacht dat &apos;k me vergist had, bleef angstig wachten op &apos;n tweede baal. &ndash; De baal kwam &ndash; werd op de bascuul geschoven &ndash; wéér drukte je voet op het blad &ndash; wéér nam je watje niet toekwam. Ik hoorde den koopman verwonderd spreken dat de balen zoo zwaar waren; wantrouwig bekeek-ie de schaal. Jij, stond zwijgend, met gevouwen handen &ndash; je stond zóó verlaten, zóó rampzalig met je enkel-witte oogen, dat niemand aan je dacht &ndash; &apos;n hulpelooze blinde. En bij élke schaal herhaalde je &apos;t &ndash; óver de twintig maal. Twintig maal! Twintig maal je stelende voet en je dooie oogen, je bewusteloos meeleven, je misbruik maken van &apos;n ramp, je misbruik maken van &apos;t meelij van andren! &ndash; Nou weet je de hoofdzaak. &apos;k Heb zitten huilen achter de loods &ndash; zoo màl was ik toen. Twee uur later zijn we naar de kèrk gegaan, zooals elken Vrijdagavond. Je zat naast me. Ik bad niet. Telkens keek ik naar je oogen om er iets in te vinden, om er &apos;n uitdrukking in te zien &ndash; telkens zag ik het wit zonder pupillen, &apos;t wit zooals &apos;t geglansd had toen je bij de bascuul naar den hemel stond te kijken. &ndash; &apos;t Was &apos;n bleeke <pb id=pb39 n=39>hemel met &apos;n énkele violette streep: zóó sterk is &apos;t me bijgebleven<corr>.</corr> &ndash; Van de kerk gingen we naar huis. De sjabbestafel wachtte. Je klaagde, dat &apos;k stil was. Ik wàs stil. Je zei brooge. Je doopte &apos;t brood in &apos;t zout. En aldoor keek ik, kéék ik. &apos;t Lamplicht scheen in je oogen. &apos;t Lamplicht gaf &apos;r denzèlfden glans aan als de hemel. Je wierp &apos;n glas om &ndash; wat nooit gebeurde. En &apos;k voelde niks. Je was geen blinde meer voor me. Je was &apos;n..... Je was &apos;n..... Waarom zal ik verwijten en schimpen? &apos;t Is gebeurd. Honderd keer na die eerste heb &apos;k &apos;t zelfde van je gezien. Ik wou je vervangen, zèlf &apos;t goed wegen, afleveren. Jij wóú niet. Je maakte je kwaad. Nooit mocht ik aan de bascuul komen. Je beloog me. Je zei dat je niet werkloos kon blijven, dat je geen rust had als je stil moest zitten. En met Jozef sámen &ndash; met je knecht lag je onder éen deken! &ndash; bleef je de kooplui bestelen, bestèlen. Laat me uitspreken! Langzaam heb &apos;k alles begrepen, ben &apos;k je gaan minachten. &ndash; &apos;n Blinde beklaag ik zoo innig &ndash; &apos;n blinde zie &apos;k voor me als &apos;n mensch van wie God &apos;n oneindige gelatenheid vraagt èn een gróóte berusting &ndash; &apos;n blinde zie &apos;k als iemand die voor de helft afscheid heeft genomen &ndash; van àlles.... Joú zag &apos;k &apos;t gèld dat je bij elkaar schraapte bestréelen, <pb id=pb40 n=40>jou zag &apos;k vechten en worstlen om naar je toe te halen, jou zag ik dag aan dag &ndash; bedriegen. O, hoe wouen je blinde oogen me dan wat doen. Hoe wou je voor me staan als &apos;n hulpelooze, als &apos;n vàder!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Doen àndren anders?
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël</hi></speaker> <stage rend=inline>(<hi>triestig</hi>).</stage> <p>Ons héele volk is ontaard.<note n=1>Zie <ref target=bijlage>Bijlage</ref>.</note>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>As ìk niet neem, nemen andren dan niet? Is &apos;t niet onze hàndel? Maken zij geen misbruik van mijn ongeluk? Gaan we niet elk uur achteruit? Kan jij eerlijk zijn &ndash; as ze je bestelen van alle kanten &ndash; bestelen an wicht &ndash; bestelen an kwaliteit? Is handel geen hàndel?
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>De andren heb &apos;k àltijd veracht &ndash; maar dat ik eéns zou leeren joúw ongeluk te vergeten.... dat je àltijd voor me zou blijven de man &ndash; bij &ndash; de &ndash; bascuul.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Veel heb &apos;k van me leven gehoord, maar zóo iets nog nooit. Daar heb ik nou verstomd van gezeten. Waar haalt iemand de vuilheid vandaan! Verwijt z&apos;n ouwen vader dat-ie z&apos;n best heit gedaan voor z&apos;n brood. Hij neemt niet as-die krijgen kan! Hij geeft gewicht toe! As je vader zoo niet gehandeld had, kon jij nou bedelen <pb id=pb41 n=41>gaan! Og! Je zal &apos;t elk jaar verdienen wat ze óns bestolen hebben! Is dat diefstal? Noem jij diefstal as je voor je brood steelt? Dan is &apos;r in de heele stad geen eerlijke Jood en geen eerlijke Chris! De een steelt op die manier, de andere op die. Geen mensch is dief in z&apos;n eigen zak. Hoe wou jij handel drijven? En eet je d&apos;r niet van mee? Is zelf te lam om te werken en z&apos;n ouwen vader gooit-ie verwijten voor z&apos;n voeten!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Ik heb &apos;t niet uitgelokt. Ik had m&apos;n mond gehouen. Maar nou &apos;k weg ga....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Jij gáat niet weg! Ik wil niet dat jij weggaat! Waarom zou je weggaan? &apos;k Heb toch niks op de wereld! Heb &apos;k &apos;n misdaad begaan? As je oud en wijs genoeg ben, zal je begrijpen wat hàndel is. Bijt je ze niet van je af &ndash; dan sta je binnen &apos;n jaar op straat.... Je mot &apos;n róófdier wezen... Anders trappen ze je &apos;r onder... Zonder gèld ben je weerloos, zonder gèld ben je an ze overgeleverd, zonder gèld ben je niks! Heb &apos;k &apos;t niet voor jóú gedaan? Wie krijgt alles na me dood?
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Laten we &apos;r niet verder over praten. &apos;t Is laat. &apos;k Ben moe. &apos;k Had beter gedaan &apos;r niet over te spreken. Denk &apos;r over na, vader. <pb id=pb42 n=42>We kunnen vrindschappelijk van mekaar gaan.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Wil ik j&apos;s wat zeggen? As jij &apos;r zèlf over slaap &ndash; heb-ie morgen spijt over wat je nou allemaal gezeid heb.... Schtos! Hij gaat weg! Nog in geen tien jaar! Wil je wat eten?
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Nee. &apos;k Heb geen trek meer.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Dan mot je maar trek maken. &apos;t Is aardig ongezond &apos;n heele dag met &apos;n nuchtere maag te loopen. &apos;k Heb nog &apos;n kliekie snijboonen met aardappelen en &apos;n stukkie schapevleesch. Zal &apos;k &apos;t even warmen?
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Nee.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Voor wat straf je je maag? Roos! Roos!
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Roep u?
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>&apos;k Dacht wel dat-je nog op zou zijn! Wil jij &apos;t kliekie even warmen?
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Nee, tante &ndash; ik eet niet.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Wàrm jij &apos;t maar! <stage rend=inline>(<hi>Rose af</hi>)</stage> As je de lucht ruikt, eet je wel.
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Heeft zij &ndash; gehuild?
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Weet ik veul! &apos;k Heb genog zorg an me kop. Kom, &apos;k zal binnen de tafel dekken...
+</sp>
+
+<pb id=pb43 n=43><sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Nee. Nee. Ik kàn nou niet meer. M&apos;n keel is toegeschroefd.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Zenuwen! Niks as zenuwen! Je windt je op voor niks! Geen wonder. Je etensuur verzetten en &apos;s nachts niet slapen! Groote nar! Wat heb je òp gedaan van nacht? Was je ziek?
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>&apos;k Kon niet slapen... ben opgestaan... Nacht vader &ndash; Nàcht vader! &ndash; Geef je geen antwoord? &ndash; Nacht.
+</sp>
+
+
+
+
+<div2 id=t1.7>
+<head>ZEVENDE TOONEEL.</head>
+
+
+<sp who=sachel>
+<speaker><hi>Sachel<corr>.</corr></hi></speaker> <stage rend=inline>(<hi>Staat op &ndash; bevoelt de pennen van de luiken &ndash; bonst zich voor &apos;t hoofd</hi>)</stage>
+
+<p>Hij was op vannacht &ndash; En &ndash; èn die mèid was op &ndash; Ze waren sámen op &ndash; sámen &ndash; Waarvoor waren ze op? &ndash; Waarom heit die sjikse gehuild? &ndash;
+</sp>
+
+
+<trailer rend="align(center)">(EINDE VAN HET EERSTE BEDRIJF).</trailer>
+
+
+
+<pb id=pb44 n=44>
+<div1 id=b2>
+<head>TWEEDE BEDRIJF.</head>
+
+<stage type=setting><hi>De huiskamer van Sachel achter den winkel.</hi></stage>
+
+
+<div2 id=t2.1>
+<head>EERSTE TOONEEL.</head>
+
+
+<stage><hi>Rose.</hi> <hi>Rafaël.</hi></stage>
+
+
+<sp who=rafael>
+<speaker><hi>Rafaël</hi></speaker> <stage rend=inline>(<hi>binnentredend</hi>).</stage> <p>Waar is vader? Waar is tante?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Ze zijn nog niet terug van de kerk. We zijn alleen &ndash; Goddank!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Liefje &ndash; huil je?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Raak me niet an! Raak me niet an!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Hebben ze je....? Wat is &apos;r? Kom, huil zoo niet!
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>O, dat ik naar je geluisterd heb!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Is &apos;r iets gebeurd? Wat dan?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Laat me met rust! Ik walg van je! Ik haat je! Ik haat jullie allemaal! O, o, dat &apos;k <pb id=pb45 n=45>sterven kon, dat God me zoo dadelijk dee doodblijven!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Heeft vader je iets gezegd? Heeft tante....
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Nee! Nee! Nee! Raak me niet an! Ik wil van jou niet gezoend worden! Ik wil alleen dood, dood!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Kom, màlle meid! Ben ik niet je man, jij m&apos;n vróúw?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Nee! Blijf van me af! Ik je vrouw! Ik! Ik! Hahaha! &apos;t Is om te schateren! Ik, je bijzit, je tijd-verdrijf, je hoèr!....
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Rose!
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Ik, wat ben ik? Ik die niks op de wereld heb &ndash; ik die me moet laten trappen door je vader &ndash; door je tante &ndash; door elken jóód die hier komt!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Joòd? Joòd? Waarom zeg <hi>jij</hi> jood?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Joòd, joòd! Wat kan &apos;t me schelen! &apos;k Ben hier &apos;n slavin! &apos;n Vreemde! &apos;n Vreemde voor je vader! &apos;n Vreemde voor je tante! &apos;n Vreemde voor den eersten den besten jood. &ndash; Ze kijken op me neer. &ndash; &apos;k Ben máar de Sjabbesmeid &ndash; ik mag de lampen opsteken &ndash; ik mag an &apos;t vuur komen &ndash; ik met m&apos;n vréémde <pb id=pb46 n=46>handen &ndash; ik hun mèid, hun mèid! Ik, joùw bijzit! Want je ben als de àndren &ndash; je heb me getrapt als de andren. &ndash; Je ben &apos;n jood zooals zij!...
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël</hi></speaker> <stage rend=inline>(<hi>neemt haar hand</hi>).</stage> <p>O wat vind &apos;k &apos;t nàar dat je dàt zegt! Wat vernedert &apos;t je zelf... Ik weet niet wàt de oorzaak is dat je zoo opgewonden ben, zoo buiten jezelf, zoo ruw, zoo onvrouwelijk, zoo grof..... Maar ik weet wel, Rose, dat je &apos;t woord niet meer zeggen moet. &apos;t Herinnert me an zoo&apos;n boel dingen. Nee, laat me je hand houen. Zóó zit ik met de óúwe vertrouwelijkheid &ndash; Toen &apos;k &apos;n kind was &ndash; met andere jongens wilde spelen &ndash; scholden ze voor jood &ndash; smaus. &apos;k Wist niet waarom. Misschien zìj ook niet. Ze deeën &apos;t uit gewoonte. &apos;t Dee pijn. Want als kind vroeg je jezelf: Is er iets bijzonders aan me? Heb ik iets gedaan? Ben ik anders dan zij? Wat is joòd? Wat? Soms smeten ze met steenen, riepen: jullie hebben Jezus gekruizigd! Ik klaagde. M&apos;n moeder zei dan: je moet er om lachen &ndash; je moet er aan wènnen &ndash; Eens op school &ndash; &apos;k had niet opgelet &ndash; trok de meester me uit de bank, gaf me &apos;n klap, zei: in den hoek staan, jood! Ik stond &apos;n uur lang in den hoek, ik, de eenige jood van die school <pb id=pb47 n=47>en door m&apos;n zotte tranen zag &apos;k de jongens die lachten, den meester, de banken, de kamer. En &apos;n wrok kwam in me. &apos;k Had dien man kunnen ranselen, &apos;k had me kunnen wreken aan allen. Waarom was &apos;k &apos;n vreemde? Waarom zeien ze jood? Zoó begon &apos;t. Zoo hoorde ik &apos;t in m&apos;n jeugd. Zoo bleéf &apos;t &ndash; M&apos;n moeder stierf. Den dag dat ze begraven werd, gingen we langzaam achter de kist, vader, ik, haar broers, de vrienden. Op den hoek van &apos;n straat stond &apos;n slager &ndash; &apos;k weet z&apos;n gezicht nòg &ndash; en die lachte. &ndash; &bdquo;Daar gaat &apos;n ouwe jodin&rdquo;, hoorde &apos;k &apos;m zeggen<corr>.</corr> &ndash; Vader werd blind. Den eersten dag dat &apos;k &apos;m leidde, liep hij aan tegen een man en die schimpte: kijk waar je loopt, jood!.... Wil je meer? Is &apos;t genoeg? Hoor je dat &apos;t woord me niet vreemd is?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Rafaël....
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Als kind dee &apos;t pijn, had &apos;k &apos;t gevoel alsof ik &apos;n merkteeken droeg, alsof jood-zijn &apos;n slecht ding was &ndash; Ik leerde, keek om me heen. En overal in de vrije christenmaatschappij zag &apos;k de wrijving &ndash; de vijandschap van de rassen, de vijandschap van de godsdiensten. Maar als màn, lieve vrouw, heb &apos;k dat vroeger gevoel van verbittering verloren, is er <pb id=pb48 n=48>iets in me open gegaan, dat me meelijden, innig meelijden heeft gegeven met wie jood-schimpen kán! Doe &apos;t niet meer. Zie ons hier zitten &ndash; jij &ndash; &apos;t is om te làchen! &ndash; &apos;n christen vrouw &ndash; ik &ndash; O, wat dwaas niet? &ndash; &apos;n jóòd! Hoe kunnen wij twee, als we elkander in de oogen zien &ndash; an zùlke kleine dingen denken...
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Je heb gelijk &ndash; Je ben beter dan ik, wijzer dan ik. Maar &apos;k was zoo wanhopig, zoo òp! En nog, nog! Hebben ze je niks gezegd?
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Gezegd?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Gisteravond zat &apos;k dáar, bij de deur<corr>.</corr> Aaron was hier, praatte met je vader, met je tante....
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Over zijn dochter Rebecca, die drieduizend gulden inbrengt &ndash; ik weet het.
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Je weet &apos;t.... O ze halen je van me af.... Ik ben bang voor je vader, durf &apos;m niet anzien. Alles hoort-ie in m&apos;n stem.... Wat moet &apos;r van me worden! Jij liegt niet. Ik geloof je. Alles aan je is eerlijk. Maar wat kùn jij? Wat kun je tegen hem, haar? Als ze &apos;t begrijpen zetten ze me op straat. Zij hebben rechten. Voor mij &apos;n ander. En dan? En dan? Ik wou dat &apos;k niet geboren was. Dat hoort God!
+</sp>
+
+<pb id=pb49 n=49><sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Nou heb &apos;k je aangehoord &ndash; kalm. Zie je &ndash; ik glimlach. Ik glimlach omdat je bang ben voor &apos;n meisje dat ik niet ken, misschien éens gesproken heb.
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Zoo gaat &apos;t altijd bij....
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Zeg maar bij.... ons.
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Jà &ndash; bij jullie. Heeft Meijer z&apos;n dochter niet gekoppeld aan den zoon van Markus? Hadden die twee elkaar ooit gezien? Hebben de vaders &apos;t niet in orde gebracht? O, Rafaël bedrieg me niet!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Kind &ndash; soms is er iets in je toon &ndash; in je vragen &ndash; in je kijken dat me triestig maakt. Ik zou je zoo graag willen opheffen, opheffen van dat làgere levensplan, je heelemaal brengen tot &apos;t mijne, je heelemaal meenemen naar mijn wereld, waar geen plaats is voor de kleine, ophitsende, wantrouwende dingen, die joù dikwijls zoo zwak maken. Ik kan me geen voorstelling vormen van je angsten. Elk woord van je twijfel is me &apos;n raadsel. Heb ik je dan niet in die uren dat-je in m&apos;n armen lag &ndash; als de nacht om ons heen was en je élke aarzeling zou gevóéld hebben &ndash; gesproken van m&apos;n liefste hopen, gesproken over de toekomst van ons beiden? Is er dan plaats voor &apos;t benauwde geknoei van andren? <pb id=pb50 n=50>Ben ik dan zoo week, zoo karakterloos in je oogen dat je spoken ziet waar ze niet zijn, dat je maar één oogenblik veronderstellen kúnt &ndash; dat ik.... ik.... ik! Hahaha! Ik verkocht! Ik die princelijk begin te leven! Ik hokkend met zoo&apos;n vrouw! Ik bruidcenten tellend! Ik ingezegend! Ik die geen jóód meer ben! Ik m&apos;n nek buigen!.... O liefje wor toch sterk &ndash; geloof in de geringste van m&apos;n woorden &ndash; wees niet bang &ndash; twijfel niet! Hoe kan &apos;n man twijflen die sterk is door &apos;n vrouw? Hoe kan &apos;n vrouw aarzlen als ze één in extase is geweest met &apos;n man? En gaan we niet samen hier vandaan?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Is dat waar? Gaan we heen?
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Eergister heb ik &apos;t &apos;m gezegd &ndash; m&apos;n vader.
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>O! Wat &apos;n geluk! Meen je &apos;t? Meèn je &apos;t? En gaan we vèr weg &ndash; waar de menschen ons niet kennen, jou niet, mij niet?
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Waarom zouen we vèr weggaan? Waarom ons verbergen? Kunnen we niet met trots komen waár we willen? Diè tijd is voorbij. &apos;t Wordt lichter over de wereld. &apos;t Zal &apos;n héele rijzing van zon zijn, als we voorbeelden stellen, als we nièt schuchter wegschuilen, maar elkeen eerlijk in de oogen zien.
+</sp>
+
+<pb id=pb51 n=51><sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Dus je neemt háár niet?
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Ben ik niet getrouwd?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Ja, ja, ja, we zijn getrouwd! &apos;t Is alles malligheid van me &ndash; angsten &ndash; wantrouwen! Zie je, wanneer je altijd bij me bleven kon &ndash; zoo héel dicht bij me, zou &apos;k lachen om de hééle wereld &ndash; de wereld is slècht niewaar?
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Nòg is ze &apos;t. Maar &apos;n nieuwe tijd breekt aan. <stage rend=inline>(<hi>in extase</hi>)</stage> Als je goed luistert, hoor je &apos;t breede rumoer van &apos;t opgaande volk, zie je banieren en vlammende oogen, voel je de lucht sidderen.... <stage rend=inline>(<hi>glimlachend</hi>)</stage> &apos;t Was me zoo vreemd, zoo zonderling toen vader me sprak van dat meisje &ndash; toen hij beloòfde dat ìk-alleen de &bdquo;zaak&rdquo; drijven mòcht &ndash; als &apos;k blééf &ndash; als &apos;k háár nam. Ik heb hem aangekeken met &apos;n machtige verwondring. Hoe is &apos;t mogelijk dat twee levens zóó ver van elkaar komen te staan &ndash; &apos;t leven van &apos;n vader &ndash; &apos;t leven van &apos;n zoon?... Ik heb hem gezegd dat &apos;t niet gebeuren kòn, dat ik weg moest! &apos;k Heb gelàchen....
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose....</hi></speaker> <p>Weg moest? Zul je láter geen berouw hebben dat je gekozen heb tusschen hem en mij?
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël</hi></speaker> <stage rend=inline>(<hi>haar op zijn schoot trekkend</hi>).</stage> <p>Ik kiès niet tusschen joú en hèm! Jij ben &apos;n deel van &apos;t níéuwe leven.
+</sp>
+
+<pb id=pb52 n=52><sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Hij is blind &ndash; &apos;t lijkt zoo wréed....
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Maak je geen verwijten. Ik kan je niet àlles zeggen, wil &apos;t niet. Wat gebeurt, móést gebeuren. Elk geslacht geeft z&apos;n smarten, z&apos;n tot ruïne vergaan, z&apos;n opbloeien van jeugd. &ndash; Kom &ndash; denk niet na.
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Heb je hem niets gezegd van òns?
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Nee. Nog niet. Eerst als je dit huis heb verlaten. Eerst dán. Jij zou hun schimp, hun haat niet verdragen. Je kent ze niet.
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Stil! God!
+
+
+
+
+<div2 id=t2.2>
+<head>TWEEDE TOONEEL.</head>
+
+
+<stage><hi>Rebecca.</hi> <hi>Rafaël.</hi> <hi>Rose.</hi></stage>
+
+
+<sp who=rebecca>
+<speaker><hi>Rebecca</hi></speaker> <stage rend=inline>(<hi>driest-lachend</hi>).</stage> <p>O!....
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>&apos;t Is niet de gewoonte ergens binnen
+te sluipen.
+</sp>
+
+<sp who=rebecca>
+<speaker><hi>Rebecca</hi></speaker> <stage rend=inline>(<hi>lachend</hi>).</stage> <p>Sluipen? Ik heb geklopt één &ndash; tweemaal. Je hoorde niet.
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>En op Zaterdag drijft m&apos;n vader geen handel. Derde gebod!
+</sp>
+
+<sp who=rebecca>
+<speaker><hi>Rebecca</hi></speaker> <stage rend=inline>(<hi>verwonderd</hi>).</stage> <p>Ik kom niet voor handel.
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Niet voor handel? Ei, wel!
+</sp>
+
+<pb id=pb53 n=53><sp who=rebecca>
+<speaker><hi>Rebecca</hi></speaker> <stage rend=inline>(<hi>lachend</hi>).</stage> <p>Vader zei me hierheen te gaan....
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Je vader? Vierde gebod!
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Rafaël!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël</hi></speaker> <stage rend=inline>(<hi>smartlijk-spottend</hi>)</stage> <p>.... Je vader.... Dat &apos;s Aaron, de koopman. Ga zitten &ndash; laten we hàndlen. &apos;k Heb afval te koop &ndash; afval van &apos;n vòlk! Voor éeuwen sprak Bil&apos;am &ndash; de Eeuwige heeft hem ontmoet; wéet je nog: hoe de Rebbe &apos;t leerde? &ndash; &bdquo;Hoe schoon zijn uwe tenten, Jacob! Uwe woningen Israël! Als beken alom verspreid, als hoven aan een rivier, als de aloës door den Eeuwige geplant, als cederen aan het water&rdquo;... Ga zitten Rebecca. De heugenis der tijden is groot. Uit Egypte zijn we gevoerd. In de woestijn Sinaï waren wij gelegerd. &ndash; Ik erf dit àlles, de bergplaatsen, den grond, de kachel, &apos;t portret van m&apos;n moeder, &apos;t ganneke-ijzer. En jij? Is &apos;t drie, is &apos;t vier, is &apos;t vijf? En twàalef van alles? Laten we handlen....
+</sp>
+
+<sp who=rebecca>
+<speaker><hi>Rebecca</hi></speaker> <stage rend=inline>(<hi>verlegen</hi>).</stage> <p>Je doet zoo vreemd .... Je maakt me angstig....
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>O, ik ben zacht als &apos;t bloed van &apos;t kalf, waarin <corr sic="Aäron">Aaron</corr> zijn vinger doopte. Jouw vader heet Aaron oók &ndash; Aaron, Aaron-de-priester! Je kan koken en braden &ndash; èn &apos;n doodshemd <pb id=pb54 n=54><stage rend=inline>(<hi>zegt tante</hi>)</stage> naai je zoo rad en zoo net! Je ben &apos;n huisvrouw om te stélen! Blijf hier, Rose!
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Laat me gaan! Laat me gaan!
+</sp>
+
+<sp who=rebecca>
+<speaker><hi>Rebecca</hi></speaker> <stage rend=inline>(<hi>met stijgende verlegenheid</hi>).</stage> <p>Heb ik je wat misdaan, dat je zoo, zoo....
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël</hi></speaker> <stage rend=inline>(<hi>smartelijk</hi>).</stage> <p>Misdaan? We hebben elkander éénmaal gesproken. Hoe zou je misdaan kùnnen hebben? Wàar was &apos;t? &apos;t Was in &apos;t huis van je vader. Je zei iets tot mij. Ik zei iets tot jou. Woorden, woorden van èlken dag. Misdaan? Je heb mooie oogen, &apos;n mond om te kussen. Je handen zijn blank. Je zult moeder van véel kinderen worden. <foreign lang=he-latn>Peroe oerewoe oemieloe es hoöres</foreign><note><xref url="bib:Gn 1:28">Genesis 1:28</xref>: <HE>p.^erv. v.r^ebiv. v.mil^e'v. 'et_ho'orex/</HE>. &ndash; <hi>Bewerker.</hi></note> &ndash; gaat en vermenigvuldigt je &ndash; En &apos;n kind &ndash; hàhà! &ndash; &apos;n kind is &apos;n weelde, &apos;n kind groeit uit de aarde als &apos;n plant met ènkel knoppen van vreugd. &ndash; Wat breng je mee? Drie, vier of vijf? Als m&apos;n vader drie neemt, neem ik drie! Als m&apos;n vader vier neemt, neem ik vier! Neemt hij vijf is &apos;t mij goed! Ik ben gezond, heb geen gebreken. Ik heb &apos;n ziel. Die krijg je toe! Ik droom. M&apos;n droomen zijn te geef.... O Rebecca, we kunnen zoo gelukkig met elkander zijn!
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Laat me gaan, Rafaël. Ik kàn je niet hooren!
+</sp>
+
+<pb id=pb55 n=55><sp who=rebecca>
+<speaker><hi>Rebecca</hi></speaker> <stage rend=inline>(<hi>driest</hi>).</stage> <p>Hoor wat zij zegt &ndash; zij, de sjikse, die zich scháàmt!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël</hi></speaker> <stage rend=inline>(<hi>vernietigend</hi>).</stage> <p>Ze schaamt zich over hàndel op Zaterdag.... Wees indachtig dat je de Sabbathdag heiligt. Ga nog niet heen Rebecca. Je naam is zoo lief en zoo zoet &ndash; om zachjes te zeggen.... Rebecca.... Rèbècca.... Moeder van Esau en Jacob.... Weet je hóe Jacob zijn broeder bedroog, zijn blinden vader bestal? Ook de mijne is blind. Heb je &apos;t vel van een geit meegebracht voor mijn handen en hals? &ndash; Ah, we zijn voor elkander geschapen, bestemd Israël te doen voortleven, Israël weer groot te maken! &ndash; Kijk om je heen. Kijk rond! Er zijn kostbaarheden, sieradiën in die kast, beleende horloges en goud. Alles wordt mijn. Alles. De grond waar we op staan, de stofdeeltjes, de zonnestralen, het rek met tefillem<note>Gebedsriemen. &ndash; <hi>Bewerker.</hi></note>. &apos;t Hangt af van je zelf! Waarom breng je geen vijf mee? Voor drie doen we &apos;t niet &ndash; m&apos;n vader en ik! Voor drie zijn we bekòcht &ndash; m&apos;n vader en ik! Voor drie, verbinden we ons niet, m&apos;n vader en ik! Met drie, hebben jullie &apos;t voordeel, joùw vader en jij....
+</sp>
+
+<sp who=rebecca>
+<speaker><hi>Rebecca</hi></speaker> <stage rend=inline>(<hi>angstig</hi>).</stage> <p>Ik hecht aan geen geld, Rafaël....
+</sp>
+
+    <stage type=exit>(<hi>Rose af.</hi>)</stage>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Wee ons! Dan hoor je hier niet thuis <pb id=pb56 n=56>hier niet, in de heele stad niet! &ndash; O? &ndash; Huil je? Rebecca-lief, huil je? Wat doen tranen bij hàndel? Weent je vader ooit als hij kóópt?
+</sp>
+
+<sp who=rebecca>
+<speaker><hi>Rebecca.</hi></speaker> <p>Waarom ben je zoo wreed? &apos;k Heb niet één woord gezegd.... Ik zal weer gáán.... verlang niks van je, niks....
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Ga, ga, Rebecca.... Ga tot je vader. Vraag geld, véél geld! Ween niet. Ik voorspel je: je trouwt! Je trouwt &apos;n beetren dan ik. Ik ben geen drièduizend waard. &ndash; Geef me je hand. O, kind &ndash; je ben nog zoo jóng. &apos;k Wou dat &apos;k wat voor je kon dóén....
+</sp>
+
+<sp who=rebecca>
+<speaker><hi>Rebecca.</hi></speaker> <p>Nee, niks....
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Ja &ndash; ja &ndash; &apos;n ráád &ndash; iets dat je moet onthouen voor làter &ndash; voor veel later... voor... Nee! Dwaasheid! &ndash; Hoe kan ik je raden? Ik ken je niet, zag je maar éénmaal, weet nauwlijks de klank van je stem, den glans van je oog....
+</sp>
+
+<sp who=rebecca>
+<speaker><hi>Rebecca.</hi></speaker> <p>Goeiendag....
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Goeiendag, Rebecca! &ndash; Rose! &ndash; Rose, ben je tòch heengegaan!
+</sp>
+
+    <stage type=exit>(<hi>af</hi>).</stage>
+
+
+
+
+<pb id=pb57 n=57>
+<div2 id=t2.3>
+<head>DERDE TOONEEL.</head>
+
+
+<stage><hi>Sachel.</hi> <hi>Esther.</hi> <hi>Rebbe Haëzer.</hi></stage>
+
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Ging Rebecca daar niet? &apos;k Zou &apos;r op zweren. Nee, ze is &apos;t toch niet.... Kom u binnen. Wees u voorzichtig.
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Pas op voor de drempel.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Hier ken ik de weg &ndash; heel precies &ndash; heel precies. Help me maar niet. &apos;k Ben niet gewend geholpen te worden.
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Is Rafaël niet thuis?
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>&apos;k Zal wel is kijken. Maar zoo&apos;n haast heit &apos;t niet. Laat-ie maar blijven. Dan kan Sachel u verder vertellen.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Wat helpt vertellen? Heb &apos;k niet àlles verteld? D&apos;r zit geen hart in die jongen. Z&apos;n vader behandelt-ie als &apos;n stuk vuil. Erger nog. En voor wie heb &apos;k alles gedaan? Voor wie vraag ik? Dat&apos;s m&apos;n ouwe dag! Geen uur vrede, geen uur rust!
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>La-la-la. Loop niet op de dingen vooruit. Ik heb dat meer bij de hand gehad. Jeùgd, Jeùgd. Anders niet. Daar moet je niet met geweld tegen ingaan. Geweld bederft. Ik ken Rafaël, beter dan jij. Heb &apos;k &apos;m niet zien <corr sic="groeiën">groeien</corr>? <pb id=pb58 n=58>Kwam hij niet uit zichzelf bij me, als-ie iets kwaads gedaan had? Weet je nog hoe-die me gebiecht heeft van die appel &ndash; die appel &ndash; op Groote Verzoendag. &ndash; Geen hardheid. &ndash; Geen groote woorden. &ndash; Geen geweld. &ndash; Hij gaàt niet heen. &ndash; Hij troùwt de dochter van Aaron.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Wat heb ik je gezeid? Nou hoór je dat &apos;k gelijk heb.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Ik voel &apos;t ánders. Ik heb geen macht meer over &apos;m. Vroeger. Ja, vroéger &ndash; zooas &apos;t staat in de boeken van Mozes &ndash; vroeger kon je &apos;n zoon dwingen &ndash; dat was recht....
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Gekkigheid &ndash; gekkigheid. We stéénigen niet meer. We gaan vooruit en niet achteruit. Vroeger, werd een ongehoorzame zoon naar de poort van de stad gebracht en gesteenigd. Dat weet ik wel, gekje &ndash; maar we hebben geen poorten meer &ndash; je màg niet met steenen gooien. Elke ruit kan je betalen. Andere tijden: andere zorgen, andere dwàng. Eer we drie maanden verder zijn is Rafaël getrouwd en &apos;n jaar later kom &apos;k op de <hi lang=he-latn>brezemiele</hi>.<note n=1><corr sic="Besnijdenis"><HE>b.^eryt miloh</HE>, besnijdenis</corr>.</note> Want je krijgt &apos;n kleinzoon. Ik zeg je, &apos;t is &apos;n kleinzoon. Hahaha! Ja-ja, je doet veel beter je zorg weg te lachen.
+</sp>
+
+<pb id=pb59 n=59><sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>...Groot gelijk, mijneer de rabbijn... Met de dag wordt-ie zwaartillender &ndash; en nou ìs Rafaël &apos;n lastige jongen, maar overleg is &apos;t halve werk. Zal u wat gebruiken? &apos;n Koppie koffie met kiks?
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Met twéé stukken kiks....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther</hi></speaker> <stage rend=inline>(<hi>in de deur</hi>).</stage> <p>Roosie! Roosie! Breng je de koffie?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Gister heb &apos;k &apos;m gezeid: jij mag de zaak alleen drijven &ndash; ik zal me met niks meer bemoeien &ndash; en &ndash; en &ndash; en &apos;k weet &apos;n vroúw voor je &ndash; &apos;n vroúw die wat meebrengt &ndash; &apos;n goeie vrouw &ndash; hij hield z&apos;n mond &ndash; hij hield z&apos;n mond. &ndash; Zeg je niks, zei ik &ndash; en &apos;k hoorde &apos;m met z&apos;n vingers trommelen op de ruit. &ndash; Dat doet-ie méer. &ndash; &apos;k Weet precies wánneer-ie &apos;t doet. &ndash; Ze brengt wat in, zei ik &ndash; ze heeft wat te wachten. &ndash; Toen lachte-die. &ndash; Waarom làch je, zei ik. &ndash; Toen lachte die hàrder en kwam op me toe &ndash; en pakte m&apos;n hoofd beet: o vader, &apos;k heb zoo&apos;n meelij met je, zei-die &ndash; toen liet-ie me staan &ndash; anders zei-die niks &ndash; anders niks. &ndash; Nou vraag ik. &ndash; Daar zit iets tusschen. &ndash; Dat kan zoo niet. &ndash; &apos;t Is &apos;n gruwel wat me gebeurt.....
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Gruwel, gekje, gruwel? Je moet niet <pb id=pb60 n=60>toegeven aan je achterdocht, aan die angst om òveral spoken te zien waar ze niet zijn. Denk aan Izaac. Izaac was blind en Jacob stal zijn zegen. Heeft-ie geklaagd? Hij zegende Esau óok. Rafaël is &apos;n kind, &apos;n gróot kind....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Sust!.... De meid....
+</sp>
+
+
+
+
+<div2 id=t2.4>
+<head>VIERDE TOONEEL.</head>
+
+
+<stage><hi>Sachel.</hi> <hi>Esther.</hi> <hi>Rebbe Haëzer.</hi> <hi>Rose.</hi></stage>
+
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Is m&apos;n zoon thuis?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Ja.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Waar is-ie?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Boven.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Is-ie thuis gebleven, terwijl wij naar de kerk waren?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Nee.... Ja, &apos;n poosje....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Hoe lang?....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Wat vraag je die meid toch?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Bemoei je &apos;r niet mee!... Hoe lang? Nou? Hoelang?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Dat weet &apos;k niet....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Zoo &ndash; Was &apos;r niemand anders?
+</sp>
+
+<pb id=pb61 n=61><sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Snauw toch zoo niet! Wat wil je van die meid.... Was &apos;r nóg iemand hier, Roos? Laat &apos;m maar brommen &ndash; Was &apos;r nog iemand?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose</hi></speaker> <stage rend=inline>(<hi>aarzelend</hi>).</stage> <p>Nee. &apos;k Heb niemand gezien.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>En jij heb iemand de deur zien uitgaan toen wij thuis kwamen.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Dan heb &apos;k me vergist. Ben je noú tevrejen. &apos;k Sta wat met &apos;m uit, mijneer de rabbijn! Blaas nou nog &apos;t licht uit onder de koffie....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Wat doet me zoon boven?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Weet ik niet....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Weet ik niet? Weet ik niet.... Ik weet meer.
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose</hi></speaker> <stage rend=inline>(<hi>verschrikt</hi>).</stage> <p>&apos;k Heb &apos;m niet gezien.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Laat &apos;m toch praten.... Geef &apos;m geen antwoord.... Je kent &apos;m toch lang genog &ndash; Hier neem &apos;n stuk kiks mee.
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Nee, dank u.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Ach wat! Neem mee. Eet op. Kauw maar op je gemak. <stage rend=inline>(<hi>Rose af</hi>)</stage> Zoo&apos;n meid durft op die manier geen mond open doen. En wat &apos;n goeie meid. Je kan alles an d&apos;r overlaten. In geen jaren hebben we zoo&apos;n sjikse gehad. Heb <pb id=pb62 n=62>u &apos;m nou bijgewoond, meneer de rabbijn? En zoo handelt-ie met iedereen.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Ik weet wat ik weet. Ik pas op. Ik zie meer dan jij....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Goed. Goed. As je maar niet lastig ben.
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Hahaha! Hahaha! Heel goed. Zoo moet je met &apos;m omspringen.... En waar blijft onze vriend?....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>&apos;k Zal &apos;m roepen.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Nee, nog niet. Eérst die meid wegzenden voor &apos;n boodschap, voor &apos;n vèrre boodschap....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Alweer &apos;n inval. Waarom zal ik de meid wegzenden? Onzin! Hindert ze jou wat, hindert ze mijn wat?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Ze hindert mìjn....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Onzin! Onzin! &apos;k Heb geen boodschap voor d&apos;r.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Máak &apos;r dan een &ndash; Ik vertrouw d&apos;r niet &ndash; Ze staat me niet an &ndash; Ze kan luisteren....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>&apos;t Is of we staatsgeheimen hebben! Hoor u &apos;m? Hoor u &apos;m? Ik sta wat met &apos;m uit. Me laatste cent zou &apos;k die meid geven.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Jouw laatste cent? Mot die niet uit <pb id=pb63 n=63>mijn zak kommen? Ik heb &apos;r m&apos;n reden voor &ndash; ik wil dat je &apos;r wegzendt....
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Geef &apos;m z&apos;n zin. En heelemaal ongelijk heeft-ie niet. Je moet die zaken zonder vreemden behandelen. Al ben je nog zoo goed voor &apos;n sjikse &ndash; vertrouwen kun je &apos;r nooit. Wat niet eigen is, wordt niet eigen.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>En waar moet &apos;k &apos;r heenzenden? &apos;k Kan &apos;r toch op Sjabbes geen boodschappen laten doen.
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Zendt &apos;r naar d&apos;r moeder.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Ze heit geen moeder.
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Naar d&apos;r vader dan.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Ze heit geen vader.
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Naar d&apos;r oom, naar d&apos;r tante.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Ze heit geen familie.
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Geen moeder, geen vader, geen familie &ndash; dan ben ik uitgepraat.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>En ze luistert niet! &apos;t Is &apos;n rechtschapen meid. Nog geen korrel heit ze gesnoept zoolang ze bij me dient. Je kan me daar &apos;n meid zonder reden wegzenden. Waarheen?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Voor mijn part naar de duivel! Stuur d&apos;r naar Meijer &ndash; dat-ie morgen hier komt.
+</sp>
+
+<pb id=pb64 n=64><sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Meijer... Meijer... Da&apos;s &apos;n vol úúr weg.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Doe wat &apos;k je zeg. Morgen, tegen één uur, wou &apos;k Meijer spreken. De rest komt &apos;r niet op an.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Hij mot z&apos;n zin hebben. Doe &apos;k je &apos;r &apos;n pleizier mee, lastige ouwe? Je zàl je zin hebben!
+</sp>
+
+<stage type=exit>(<hi>af</hi>).</stage>
+
+
+
+
+
+<div2 id=t2.5>
+<head>VIJFDE TOONEEL.</head>
+
+
+<stage><hi>Sachel.</hi> <hi>Haëzer.</hi></stage>
+
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Ik weet &ndash; wat ik weet. Ze mot heelemaal weg.
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Wie?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>De meid....
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Legt ze je iets in den weg, gekje! Moet je voor die geen andere nemen? Praat nou &apos;s over iets anders &ndash; wees wat opgewekter. Ik begrijp wel dat je ongeluk je somber maakt. Maar de Eeuwige, onze God, wil wat hij wil en in alles is zijn heerlijkheid en zijn grootheid....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Grootheid.... Grootheid.... &apos;t Is moeilijk God gróot te denken as je door je ooren en je vingertoppen mot zien....
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>La-la-la.... Niet zoo doorslaan....
+</sp>
+
+<pb id=pb65 n=65><sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Maar met die meid is &apos;t wat ánders. &apos;r Gebeuren dingen onder m&apos;n dak &ndash; dingen &ndash; ze bedriegen me. &ndash; &apos;k Heb &apos;r gehoord &ndash; laat in de nacht &ndash; en &ndash; en....
+</sp>
+
+
+
+
+<div2 id=t2.6>
+<head>ZESDE TOONEEL.</head>
+
+
+<stage><hi>Sachel.</hi> <hi>Haëzer.</hi> <hi>Esther.</hi> <hi>Rafaël.</hi></stage>
+
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Zoo. Nou kunnen we knuf-knuf praten.
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Dag Rafaël, dag bèste jongen.
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>O. &ndash; &apos;k Heb u in làng niet gezien.
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>In lang niet, nee. &ndash; Ja, heel graag: ik wil nog &apos;n kopje. &ndash; Wel, wel, wel. &ndash; Je krijgt &apos;n hééle baard. Nee, geen melk. &ndash; Schuif wat bij Sachel. &ndash; Zoek nou over de heele wereld, over de heele, héele wereld &ndash; en nèrgens vin je die goeie, prettige, joodsche huiselijkheid. Die vin je alleen bíj óns. De christenen verstaan &apos;t niet. Die kennen geen Sjabbesavond, die wèten niet wat fámilie is. Waar of niet? Bij &apos;n Christen ben je niet op je gemak. Al ga je jaar in, jaar uit met ze om, &apos;t blijft vreemd. Elke jood is &apos;n stuk van je familie &ndash; en &apos;n jood die begrijp je, die voelt met je mee, daar vin je iets in van <pb id=pb66 n=66>je eigen huis. &ndash; Dat &apos;s &apos;n héél fijne kiks &ndash; kan òok alleen maar &apos;n joodsche vrouw. &ndash; En wat is &apos;r zoo voor nieuws op de wereld? &ndash; de wereld is groot &ndash;
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>&apos;k Wou dat u sprak met m&apos;n zoon &ndash; &apos;k heb u verteld....
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Ja-ja-ja. &ndash; Zóo gewichtig is dat toch niet. Strakjes. Strakjes. Niewaar, Rafaël, wij vliegen mekaar niet in &apos;t haar. Bij mij heb je geen houvast meer! Hahaha! Tja-tja. &ndash; Smakelijk lachen is alles. Daar frisch je zoo heelemaal van op. Slaat daar niet &apos;n deur?
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Dat &apos;s de meid die naar Meijer gaat...
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>O! O ja juist. Ja, nou zijn we alleen.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>&apos;k Heb gesproken over Rebecca....
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>La-la-la. Gekje wat maak je &apos;t je toch moeilijk! Alles komt op z&apos;n pootjes terecht. Alles. Niet zoo doordrijven. Niet zoo haastig gebakerd. Jij heb &apos;n wil en je zoòn heeft &apos;n wil &ndash; en voor de wil van je zoon moet je respect hebben. Je mag Rafaël niet behandelen als &apos;n kind. Je kent &apos;m nog altijd van toen die zoo kléin was. Je heb &apos;m niet groot zien worden. Als Rafaël redenen heeft, bezwaren heeft om met <pb id=pb67 n=67>Rebecca te trouwen, dan moet je luisteren, dan moet je redeneeren. Want per slot van rekening troùwt Rafaël en trouw jij niet, gekje.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Dat zeg ik ook. Hij praat altijd asof hij de bruigom is. Nar!
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Z&apos;n hart is jong genoeg! Hahaha! Niewaar Sachel? Oók &apos;n joodsche eigenschap. Zoek &apos;t bij de christenen! &apos;n Jood drinkt niet, &apos;n jood is matig, &apos;n jood brengt &apos;t tot hoogen ouderdom. Zouen we anders, na zóóveel vervolging, geworden zijn wie we zijn? Wat zeg jij, <hi>Rafaël.</hi> Zeg ook &apos;s wat. Je moet niet zoo ernstig zijn op joùw leeftijd. Neem &apos;n voorbeeld an mij. Zou je zeggen dat &apos;k diep in de zestig ben &ndash; maar je moet niet naar m&apos;n haar kijken. Hahaha!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Drink u is uit, mijneer de rabbijn.
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Nee. Nee. &apos;k Ben voorzien. En nou over die kleine kwestie &ndash; och, ze vallen zoo dikwijls voor en je hoeft &apos;r mekaar niet minder lief om te hebben &ndash; die kwestie, wàt was &apos;t ook weer?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>M&apos;n zoon....
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>La-la-la &ndash; &apos;k weet &apos;t al &ndash; hij wou graag wat van de wereld zien en nog niet trouwen &ndash; nog niet trouwen. &ndash; Wel, wel, wel.... En hoe zit dat zoo, Rafaël?.... Je vader is &apos;n <pb id=pb68 n=68>gekje en jij ben &apos;n gekje. Jullie zijn twéé gekjes bij mekaar. Waarom zul je &apos;t elkander moeilijk maken? En jij &ndash; jij met je gezonde oogen &ndash; jij die &apos;t licht ziet &ndash; en de hééle mooie wereld &ndash; hoe kom je op de kinderachtige inval om wèg te willen? Weg &ndash; wat is wèg? Kijk je vader eens an! Zie &apos;m zitten. Kan-ie &apos;n stàp alleen doen? &ndash; Weg, wat is weg? Wèg, dat is zijn bij andere menschen. Gekje, gekje vin je óóit weer &apos;n huis, waarvan je elk meubeltje ken, élk hoekje, èlke balk, èlke schaduw. Kijk is rond. Je jeugd vergeet je nooit. Ben je opgegroeid bij die kast, bij die klok, bij die tafel, bij, bij, bij wat je maar wil? Weg, dat is breken, brèken met de scheur in die balk, met de stoelen waar je over klauterde toen je zoo&apos;n kléine dreumes was. &ndash; En onder die lamp hebben we samen gezeten. Weet je nog de <corr sic="twéé-en twintig">twéé-en-twintig</corr> letters, de vijf lange, de vijf korte klinkers... hahaha! En dan viel de snuif uit m&apos;n neus op &apos;t gebedenboek &ndash; dat heb je me làter verteld &ndash; en je moeder zat dáár &ndash; die luisterde &ndash; die lachte omdat jij niet gelooven wou dat de staf van Aaron, die aan &apos;t huis Levi toebehoorde &ndash; in de tent-der-getuigenis &apos;n bloem had gekregen &ndash; weet je nog? Wat wil je gekje? Wat krijg je in de plaats als je weg gaat? <pb id=pb69 n=69>Vreemden. Kom je bij andere joden en zit je an de Sjabbestafel dan denk je an de Sjabbestafel thùis, an je blinden vader die zelf <hi>brooge</hi> moet maken, zelf <hi>benchen</hi>. &ndash; En kom je bij <corr sic="chìstenen">chrìstenen</corr> en is &apos;t Vrijdagàvond dan verlang je naar je soepje èn je pudding &ndash; èn naar de kast &ndash; èn naar de lamp &ndash; èn naar de klok. Zooals &apos;n klok thuis tikt, tikt ze nèrgens. Hoor &ndash; En geef me nou nog &apos;n kopje.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Zie je &ndash; nou lacht-ie zelf. &ndash; Malle jongen. Jij trouwt Rebecca &ndash; en ik dans op de bruiloft.
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Goeie ouwe rebbe. &ndash; God gaf dat &apos;t anders zijn kòn. Maar &apos;t kan niet. Nou niet. Later niet.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Daar heb je &apos;m wéer! &apos;k Begin &apos;r genoeg van te krijgen.
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>La-la! La-la-la. &ndash; Geen herrie. Met krakeelen bereik je niets. Ik vraag alleen: waàrom niet, Rafaël? Waàrom niet? De leeftijd van grillen ben je nou toch te boven. Nooit heb ik &apos;t je lastig gemaakt. Dat wéet je. Je ben &apos;n heele tijd niet in de Schoel<note n=1>Kerk.</note> geweest &ndash; &apos;k heb je niets gevraagd &ndash; ik dwing niet. &ndash; Maar noù, maar nòu....
+</sp>
+
+<pb id=pb70 n=70><sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Vraag &apos;t m&apos;n vader....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Hij wil wèg &ndash; hij wil weg &ndash; om &ndash; om &ndash; om &apos;n kwestie van hàndel &ndash; om &ndash; om &ndash; nooit heb &apos;k handel ànders voor me gezien.... Maar hij liégt &ndash; ik héb toegegeven, àlles toegegeven &ndash; en hij wil niet....
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Zoo. En nou jij, gekje?
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Hij heeft gelijk.
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Wat hoeven we dan nog te praten?
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Maar, zèlfs wanneer ik àlles vergeet wat ik hier &ndash; wat ik hier &ndash; van hàndel gezien heb, dan nog kàn &apos;k niet, wil &apos;k niet &ndash; want handel en bezit &ndash; wérken alléén óm bezit &ndash; werken van &apos;s morgens tot &apos;s avonds om géld naar je toe te halen, géld, géld &ndash; dat zou &apos;k niet kunnen, dat is spótten met &apos;t leven, dat is bestaan op kosten van andren &ndash; èn &ndash; èn &ndash; o, goeie rebbe &ndash; waarom zeg je &apos;t niet in de kerk &ndash; dat strijdt tegen de wetten van Mozes....
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Wéér &apos;n profeet! In geen tijden hebben we zóóveel profeten gehad. Handel &ndash; bezit &ndash; in strijd met de wetten van Mozes. Wel, wel. Dat wordt &apos;n theologisch gesprek. Nou maar, dat màg &apos;k wel. Daar kan ik van leeren. Als &apos;t geen Sjabbes was, zou &apos;k &apos;r &apos;n pijp bij opsteken. <pb id=pb71 n=71>Hahaha! Tja-tja, we worden in &apos;n hoekje gezet. Zoó. Laat nou is hooren. &apos;k Zit &apos;r voor...
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Waartoe zou &apos;t dienen? Met &apos;t oprakelen van ouwe dingen, veranderen we &apos;t tegenwoordige niet....
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Heel, héél handig. &ndash; Maar zóó laat ik je niet los. Je heb a gezegd &ndash; zeg nou b. En als jij b zegt, zeg ik c en zóó kom je in de val! Hahaha! We zitten gezellig, niewaar &ndash; we hebben allen tijd. En zoo volgen we &apos;t goeie wegje om jou ràdikaal van je malle ideetjes te genezen. Kom, gekje!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Wil je? Goed. &ndash; Kijk &ndash; op &apos;n dag kwam ik &apos;n &ndash; &apos;n &ndash; làmme tegen. Hij kon niet bewegen, niet loopen, niet staan. Hij zat. Hij zat altijd op dezelfde plek, dreef handel. Want hij sprák en hij dácht....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Zeg maar &apos;n blinde....
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>... hij kende alleen &apos;t genot van geld en koopwaar. Lang dacht &apos;k over die ongelukkige na, begreep &apos;m niet. Hij was geloovig...
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Ja &ndash; ja &ndash; maar daar zou je &apos;t niet over hebben....
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>.... Hij was geloovig. Ik las de boeken van Mozes om te wèten. Ik las van &apos;n <pb id=pb72 n=72>volk dat groot was geweest in kracht en in moed en in krijgsroem. Ik las van &apos;n volk dat tabernakels gebouwd had en grond verdeeld voor een ièder gelijk. Ik las dat geen renten zouden opgeleid worden aan den arme.... dat het zévende jaar &apos;t land en de wijngaard braak zouden liggen om de behoeftigen te steunen &ndash; dat landerijen niet voor àltijd zouden verkocht worden &ndash; &bdquo;want Mijn is het land, en gij zijt slechts vreemdelingen bij Mij&rdquo; &ndash; dat &apos;r een jubeljaar zijn zou en een lossing....
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Heel goed. Heel goed. Dat heb ik je zèlf geleerd....
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>En zooveel meer!...
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>En de hàndel, gekje?
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Handel? Was handel niet veracht? Hoe sprak Jacob van Issachar?
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Heel goed. Heel goed.... Een sterk gebeende ezel, niewaar? Hahaha! Aardig beeld. Vin je ergens mòoiere beelden dan in ons wetboek?.... Maar, gekje, je had &apos;t onder léiding moeten lezen. Nou heb je hiér wat opgevangen en dàar wat en &apos;t rèchte weet je niet.
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Meer dan &apos;k weet, wil &apos;k niet weten<corr>.</corr>
+</sp>
+
+<pb id=pb73 n=73><sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>La-la-la. Daar ken ik je beter voor. Jij ben niet met &apos;n déél tevreden.
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Welke leéring is er te trekken uit wat niet meer leeft?
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Niet meer leeft, gekje?
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Heb &apos;k niet bij &apos;t lezen gevoeld dat ik was in &apos;n dóóden tijd? Is &apos;n kerkhof &apos;n wandelweg voor lévenden?
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Woorden, woorden, gekje. De geest, niet de letter maakt &apos;n godsdienst levend. Met letters kun je vechten, met letters kun je goochelen. Met letters bewijs je dat groen geel en geel rood is. Met letters.... Dreef David handel? Dreef Salomo handel? Jà. Getuigt niet Abraham&apos;s dienstknecht dat de Eeuwige zijn heer heeft gezegend met schapen, runderen, zilver, goud, knechten en dienstmaagden, kemelen en ezelen? Gèèn bezìt? Getuigt Mozes niet van Gad&apos;s ruime grenzen? Geèn bezit? Met letters.... De géést.... De géést alleen &ndash; de jóódsche geest.... We gaan niet àchteruit. We gaan vóóruit. Stel dat Mozes terug kon komen en God&apos;s wetten opnieuw schrijven &ndash; dan zou-die &ndash; dan zou-die &ndash; wat-ie zou wèten we niet &ndash; maar dan zou-die, en dát kun je wel voor zeker aannemen &ndash; dan zou-die heel wat òngeschreven kunnen laten wat goed was voor een <pb id=pb74 n=74>nomadenvolk dat zich véstigde en niet meer zoo héélemaal goed voor.... voor &apos;n volk dat vrij leeft in &apos;n christenmaatschappij... Maar &apos;t lévende, &apos;t lévende deel &ndash; de joodsche geest.... de jóódsche géést zou die ònveranderd &ndash; ik zeg ònveranderd laten.... En dat is de groote fout, gekje, als leeken snuffelen in wijze boeken. Die zien &apos;t oppervlak, de huid, &apos;t uiterlijke &ndash; en &ndash; en &ndash; en &apos;t gòddelijke voelen ze niet....
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Ik voel &apos;t goddelijke van <hi>mijn</hi> tijd, &apos;t goede, &apos;t schoone, &apos;t slechte.... Ik voel dat elk begrip van God zich verplaatst, èlke eeuw ànders wordt, ànders door &ndash; door &ndash; hoe zal &apos;k &apos;t jùllie zeggen? &ndash; door &apos;n maatschappij die zich verandert, vervalt of verheft. Ik voel dat de geest waarvan ù spreekt vástgébónden ligt aan ons volk in zijn ópkomst &ndash; ik voel dat we ons ghetto moeten verbreken.
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Ghetto? Ghetto? Hahaha! Hóóren jullie dat? Waar is dat ghetto? We leven niet meer in ghetto&apos;s, gekje!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Hij praat as &apos;n kind. Allemaal schtos! Hij praat as &apos;n risschesmaker &ndash; de joden maken tegenswoordig de grootste rissches zèlf....<note n=1>Rissches: aanstoot.</note>
+</sp>
+
+<pb id=pb75 n=75><sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Ghetto? Waar vin je &apos;n ghetto in ons land? Mag je niet komen wàar je wil? Ben je niet net zoo goed burger als ieder ander? Heb je geen joden in de aanzienlijkste betrekkingen? <stage rend=inline>(<hi>met climax</hi>)</stage> Wordt Eleazar niet aan &apos;t Hòf ontvangen met éérbewijzen: Wat wil je met je ghetto?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Zoo kommen we niet verder. Laten we over Rebecca spreken. &ndash; <corr sic="Aäron">Aaron</corr> kan hier zijn, elk oogenblik....
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Prachtig gaat &apos;t. Prachtig. Niet doordrijven. Eérst over &apos;t ghetto.... En nou jij weer. &ndash; Nee, &apos;k blijf bij één kopje....
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Ghetto? Dat ìk &apos;t zeggen moet aan &apos;n rabbijn! Ghetto? Hebben jullie me niet groot gebracht in léúgens van ras en geloof?....
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Leugens? Dat pàst je niet!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Leugens?.... Leùgens?
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Mocht &apos;k eten bij &apos;n christen? Mocht &apos;k op Vrijdagavond &apos;t vuur aanraken, de lamp opsteken, &apos;n brief openscheuren? Had je daar geen christen-dienstmeid voor? Gaf je me àndere vrienden &ndash; toen &apos;k &apos;n kind was &ndash; dan jòden? Ben &apos;k niet &apos;n tijd op &apos;n jodenschool geweest? Werd <pb id=pb76 n=76>God me niet geleerd, Gód, Gòd &ndash; door &apos;n jóód?....<note n=1 id=n80.1>Zie <ref target=bijlage>bijlage</ref>.</note>
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p><corr sic="Laat&apos;m">Laat &apos;m</corr> uitspreken....
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Ghetto?.... De poorten zijn neergehaald, de muren zijn gesloopt &ndash; de gràchten zijn gebleven &ndash; de grachten van ònze en hùn haat....
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Hún haat! Zij hebben vervolgd door alle eeuwen. Wij niet!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Onze haat! Onze haat! Ontken &apos;t niet, rebbe Haëzer! Ze hebben ons uit de ghetto&apos;s gelaten &ndash; we zijn tóch bij elkander gebleven. We hebben elkaar opgezocht. We hebben ons uitverkoren gevoeld &ndash; nee, schud je hoofd niet &ndash; stràks heb je &apos;t zelf gezeid. &ndash; We hebben ze als vréémden beschouwd, als vréémden behandeld. Hún vrouwen hebben we.... hebben we betááld, &ndash; onze getroùwd!<note n=1 sameAs=n80.1></note>
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Dat is &apos;n leugen!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>God hoort me getuigen!
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Gelogen! Driedubbel gelogen!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Wáárom ben je nou kwaad, rebbe Haëzer? Waarom làch je niet meer?
+</sp>
+
+<pb id=pb77 n=77><sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Omdat je van &apos;n onbeschaamdheid ben die iemand &apos;t laatst geduld doet verliezen! Omdat....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Schaam je! Ben jij &apos;n jóód?
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Nee. Nièt meer.
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Rafaël, Rafaël bezin wat je zegt! Je wil je blinden vader verlaten &ndash; je weigert als &apos;n goed zoon te trouwen &ndash; je beschimpt ons volk &ndash; je staat in opstand tegen onzen God, den God van Israël, die genade bewijst tot in duizenden geslachten, maar die wráakzúchtig is!... &bdquo;Gij zult.... Gij zult geen andere goden voor Mijn aangezicht hebben!&rdquo;
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Goden?... Goden? Hebben we ooit anders dan gòden gekend? <stage rend=inline>(<hi>Slaat het raam open</hi>).</stage> O, de benauwenis, de benauwenis! Hoe komen we &apos;r uit!
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Jij ben gek &ndash; jij ben gèk!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Gek? Hahaha! Gek? Kijk: aan de overzij heb je huizen, huizen met kamers. En ginder. En verder. En nòg verder. Telkens weer huizen met kamers en menschen. Overal menschen met gòden. Hahaha! Hahaha! Zie dan neer, God, door dit gàt. Zoo is &apos;t op je hééle wereld. Zoo zitten ze overal, elkander plagend, elkander <pb id=pb78 n=78>ophitsend, elkander beliegend. Zoo verdorren ze tusschen vier wanden, bij hun lampen, bij hun kleine gepraat over ùw grootheid! Zoo sluiten ze zich op, verdeeld in ùw naam, vervolgend in uw naam, vervloekend in uw naam! O, die kamers, die benauwde, heete, wanhopige kamertjes, waar geen frischheid binnenstroomt, waar &apos;t groen van de blaeren geel wordt, waar de longen hijgen en de ziel vermummelt als &apos;n gestorven bloem! Laat me spreken, rebbe Haëzer, nou hinder je me niet langer met je spot! Nou ben ìk de prediker, ìk die geen jood ben, geen jood en geen christen, ik die God voel in het licht van de zon, in de geuren van den zomer, in den dauw van &apos;t veld, in het glanzen van het water, in de bloemen op het graf van mijn moeder. &ndash; Neergesmeten heb je ze, vader, de muurruitjes, vergeet-mij-nietjes en gouwen! Neergesmeten bij &apos;t stof van je vodden! &ndash; O, &apos;k heb meelij met jullie, meelij met je kleine getob, meelij met je ghètto&apos;s, met jùllie ghetto, met hùn ghetto, meelij met de kamer hier en de kamers rondom, meelij met al de goden die geen goden zijn &ndash; want de wàre God moet nog komen, de God van de nieuwe gemeenschap, de gemeenschap zònder goden, zònder slechtheid, zònder slaven!....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Dus &ndash; dus &ndash; as &apos;k begrijp &ndash; as &apos;k <pb id=pb79 n=79>begijp &ndash; &apos;t vlamt in &apos;t donker van m&apos;n hoofd &ndash; as &apos;k begrijp &ndash; dan wil jij heen &ndash; dan &ndash; dan trouw jij Rebecca niet....
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Hiér was ze straks &ndash; en &apos;k heb &apos;r geweigerd. Ik kàn niet anders.
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Rafaël.... Rafaël....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Sust!... Sust! Laat mijn spreken &ndash; &apos;k Heb zoo lang gezwegen.... Je heb &apos;r geweigerd...... Ze was hiér.... ....Dan heit die meid gelogen.... die meid.... dàn... dàn... heit die meid gelógen, wèèr gelogen... dan... dan.... Wát is &apos;r tusschen joù... en die meid... tusschen jou en die Christenméid?....
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Die meid!....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Je ben sámen op geweest eergisternacht &ndash; &apos;k heb je gehoord. &ndash; En straks &ndash; stràks &ndash; <stage rend=inline>(<hi>staat woest op met gebalde vuisten</hi>).</stage>
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Sachel!... In Godsnaam!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel<corr sic=.></corr></hi></speaker> <stage rend=inline>(<hi>inzakkend</hi>).</stage> <p>Vloek! Vloek over m&apos;n
+ouwen dag!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>&apos;t Is waar. Ik ontken niet. Lang gelejen zou &apos;k &apos;t gezegd hebben. Maar ik aarzelde: diezelfden dag zou je háár uit je deur getrapt hebben, háár, mijn vrouw.... Noù weét je &apos;t vader, dat &apos;t zijn móét<corr sic=",">.</corr> <stage rend=inline>(<hi>af</hi>).</stage>
+</sp>
+
+
+
+<pb id=pb80 n=80>
+<div2 id=t2.7>
+<head>ZEVENDE TOONEEL.</head>
+
+
+<stage><hi>Haëzer.</hi> <hi>Esther.</hi> <hi>Sachel.</hi></stage>
+
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Wee! wee! Wee dat &apos;k dat alles mot ondergaan! Wee! Wee!
+</sp>
+
+<sp who=haezer>
+<speaker><hi>Haëzer.</hi></speaker> <p>Sachel! Sachel!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel<corr sic=.></corr></hi></speaker> <stage rend=inline>(<hi>knarsend</hi>)<corr>.</corr></stage> <p>Wee! Lag-ie begraven bij z&apos;n moeder!
+</sp>
+
+
+<trailer rend="align(center)">(EINDE VAN HET TWEEDE BEDRIJF.)</trailer>
+
+
+
+
+
+
+<pb id=pb81 n=81>
+<div1 id=b3>
+<head>DERDE BEDRIJF.</head>
+
+
+<stage type=setting><hi>Een slop in de jodenbuurt. Aan de achterzijde een gracht met verweerde pakhuizen. Schemering. Voor den uitdragerswinkel zitten Esther en Sachel.</hi></stage>
+
+
+<div2 id=t3.1>
+<head>EERSTE TOONEEL.</head>
+
+
+<stage><hi>Sachel.</hi> <hi>Esther.</hi></stage>
+
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Staat &apos;r niemand in de poort?...
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Nee....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Hoór &apos;k dan niks?
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Je hoort kinderen in de straat spelen. Hij zal de meid achterop wezen. Jouw zoon... jouw zóón godbetert!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Is naastan niemand thuis?
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Wat vraag je weer &apos;n boel! Néé. Levi en z&apos;n vrouw zijn over Sjabbes bij d&apos;r dochter. We hebben &apos;t rijk alleen. En maar goed ook. <pb id=pb82 n=82>Anders wist morgen de heele <hi>kille</hi><note n=1>Gemeente.</note> wat voorgevallen is.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Asof ze &apos;t morgen toch niet weten &ndash; van &ndash; van de rebbe &ndash; èn van hèm &ndash; èn van die mèid &ndash; Die mèid! Waar blìjft die meid?
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Begrijp je niet dat-ie &apos;r tegemoet is geloopen, d&apos;r alles gezeid heit, dat ze niet meer dúrft. &apos;k Zou d&apos;r oogen uit d&apos;r kop krabbe. As &apos;k maar kòn. Jouw zóón die zich afgeeft met zoo&apos;n del, met zoo&apos;n slét! Joùw zoon onder joùw dak! &apos;t Hoogste woord heb je &apos;m laten voeren. Heb je ooit naar &apos;n gezond woord geluisterd, jij, jij? Heb &apos;k je niet honderdmaal gewaarschouwd, as-ie uitbleef, as-ie ons alleen liet sàppelen? Nou krijg je &apos;t met rènte terug. Met woekerrente. Nou oogst je! &apos;n Zoon die zich vergooit, &apos;n zoon die de rabbijn as &apos;n kwajongen behandelt! De snotneus! Opstaan tegen &apos;t geloof van z&apos;n vaderen. Weet-ie &apos;r véul van! En wàt &apos;n huwelijk had-ie kennen doen! &apos;n Engel, &apos;n huisvrouw uit duizenden, &apos;n vrouw die de negotie verstaat &ndash; heit ze &apos;t niet bij d&apos;r vader geleerd tot in de nagels van d&apos;r duimen? &ndash; &apos;n rechtschapen meissie &ndash; en die smijt-ie weg voor oud-vuil om zoo&apos;n lellebel die nog geen aardappel <pb id=pb83 n=83>schillen kan, die geen hemd an d&apos;r lijf heit, die van handel zooveul weet as de ràt die daar gaat....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Ging &apos;r &apos;n ràt?....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Schrik je van &apos;n rat, nar? Daar gaat-ie &apos;t water in. Afgeloopen. &ndash; Dat serpent! Overmorgen verwijt z&apos;m z&apos;n geloof, scheldt &apos;m voor jood! Jood en Chris gààt niet samen. Zijn vróúw! Og! Tróúwen! Og! Die jongen is niet wijs, die mot opgesloten worden &ndash; Je zal &apos;r wat van beleven! &apos;t Is om je dood te ergeren. En jij, jij die altijd zoo&apos;n praas heb &ndash; jij &ndash; dat je nòù niks zegt, hè?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Laat me met rust &ndash; Ik ben kapot &ndash; Ik ben op.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>&apos;t Most mìjn zoon wezen. &apos;k Zou &apos;m leeren. As &apos;k &apos;r an denk! Laat ze is om d&apos;r goed kommen, d&apos;r armeluisrommel! Geen korrel geef &apos;k af. Geen zaddoek. Wie heit &apos;m slecht gemaakt? Wie heit &apos;m angehaald? Keek-ie ooit naar &apos;n vrouw? Heb je &apos;m zien scharrelen zooas de jongens van Ruth en van Bram? Wie heit &apos;m met d&apos;r strèken ingepalmd? Kreeg ze voor mijn part, kreeg ze &apos;n ziekte, dat ze morgen krepeerde!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Schreeuw zoo niet.... Denk an de buren....
+</sp>
+
+<pb id=pb84 n=84><sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Buren! Buren! Is &apos;r iemand thuis? En làten ze &apos;t hooren! Zal d&apos;r me één ongelijk geven? Nou héb je je zin &ndash; As ìk wat zei wer &apos;k afgesnauwd. As ìk wat zei kreeg &apos;k &apos;n groote bek. En hij? Hoeveel keer heit-ie me niet &apos;t bloed uit me vingers gezogen. &apos;t Komt je toe.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Hou op. M&apos;n kop staat &apos;r niet na.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>De schande &ndash; de schande in de <hi>kille</hi>.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Ik weet &apos;t. Je hoeft me niet op te warmen.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Dat gezicht dat &apos;k zoo vertrouwd heb!<corr sic=..>...</corr> Dat pestgezicht!... Gister gaf &apos;r nog &apos;n afgedragen japon. Hoe kom &apos;k zoo gek? Maar ze neemt &apos;m nièt mee. Niks geef &apos;k af.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Daar is iemand....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Nee. Je maakt me zenuwachtig<corr>.</corr> Laten we naar binnen gaan. &apos;t Wordt donker.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Ik blijf hier. Binnen heb ik geen rust. As-die nou is niet terugkwam &ndash; wegbleef &ndash; voor góed wegbleef....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Groot verlies! Liever geen zoon &ndash; dan zoo een....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Jij &ndash; jij kan dat zeggen &ndash; màkkelijk zeggen &ndash; jij heb nooit &apos;n kind gehad &ndash; Wat heb &apos;k voor vreugde &ndash; voor afleiding &ndash; dan... </sp>
+
+<pb id=pb85 n=85><sp who=esther>
+<speaker><hi>Esther</hi></speaker> <stage rend=inline>(<hi>verbaasd</hi>).</stage> <p>.... Huil je, Sachel? Sàchel?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Nee. Hou je bek! Wie praat &apos;r van huilen! Ik zeg dat z&apos;n stem... Maar dat begrijp jij niet &ndash; dat kán jíj niet begrijpen &ndash; Wàt begrijp je wel? Steek de lamp an! Nou dan!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Goddank. Je ben weer gezond. &apos;k Had me haast ongerust gemaakt.
+</sp>
+
+    <stage type=exit>(<hi>af</hi>).</stage>
+
+
+
+
+<div2 id=t3.2>
+<head>TWEEDE TOONEEL.</head>
+
+
+<stage><hi>Sachel.</hi> <hi>Aaron.</hi></stage>
+
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Zit je daar Sachel?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Wat mot je?
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>&apos;t Is wat moois....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Wat is &apos;r moois?
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Dat met je zóon....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Wat gaat joú dat an?
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Vraagt naar de bekende weg! Wat &apos;t mijn angaat? Reusachtig zou &apos;k denke. Og, wat &apos;t mijn angaat!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>&apos;k Heb met jóu niks te maken.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Je zoon is &apos;n ploert en &apos;n....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>D&apos;r wordt je niks gevraagd....
+</sp>
+
+<pb id=pb86 n=86><sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Waren we accoord &ndash; ja of nee?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Nee.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Heeft je zuster niet gezeid, dat ik mijn Rebecca sturen zou?....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Weet &apos;k niet....
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Jij weet niks wat je niet weten wil &ndash; of &apos;t mot zwart op wit staan....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Je verveelt me!
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Jij verveelt mijn al làng!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Wat doe &apos;k met jouw gemier! &apos;k Zal me zoon dwingen as-die joùw dochter niet wil. Mot-ie zèlf weten!
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Mijn dochter..... Mijn dochter.... &apos;n Wèldaad had ze &apos;m bewezen....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Ik kan jouw weldaden niet gebruiken &ndash; en me zoon oók niet.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Jouw zoon! Jouw zoon! M&apos;n voeten veeg &apos;k nog niet an &apos;m af. Daar zijn me zolen te goed voor.
+</sp>
+
+
+
+
+<div2 id=t3.3>
+<head>DERDE TOONEEL.</head>
+
+
+<stage><hi>Sachel.</hi> <hi>Aaron.</hi> <hi>Esther.</hi></stage>
+
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Dacht &apos;k wel. Dàcht &apos;k wel. Hij mot <pb id=pb87 n=87>zich wreken. Groot gelijk heb-ie Aaron &ndash; gelijk tot over &apos;t end van je jaren! Is &apos;t geen schande wat &apos;r gebeurt?
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Schande? Schande? Jullie wèten nog niks! Jullie weet niet van van-morgen &ndash; wat-ie met mijn Rebecca gedaan heit!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Kan me niks schelen!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Mijn wel! Mijn wel! Nòg trekt-ie z&apos;n partij!
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Heb jij niet gezeid dat Rebecca bij je most kommen?
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Zeker heb &apos;k &apos;t gezeid.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>En is ze niet grienend teruggekeerd? Grienend om &apos;t affront! Zat-ie niet met die christenmeid, met die sjikse op z&apos;n schoot? Mot je zoo mijn dochter ontvangen? Mijn dochter is geen schànddochter! Mijn dochter is geen vulnis! Mijn dochter kan huwelijken doen, reusachtig! Mijn dochter hoeft door jóúw zoon niet van de deur gewezen te worden!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Had ze nièt gekommen!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Hoor hém! Hoor hém! Daar kan &apos;k me nou zóo bij opwinden! Daar sta &apos;k geregeld bij te beven! O, o, as &apos;k geen meelij met je had! Mot je die man nog òngelijk geven? Die man <pb id=pb88 n=88>die zich komt beklagen! Die man die in &apos;t fatsoenlijke tot je spreekt!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>We hadden geen accoord....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Komt &apos;r wat op an!.... Zoo&apos;n engel van &apos;n meissie! &ndash; Zat ze op z&apos;n schoot? Zat die vuilik op z&apos;n schoot?
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Met d&apos;r eigen oogen &ndash; met d&apos;r éigen oogen heit ze &apos;t gezien. En was &apos;t daar bij gebleven! Maar beleedigd heìt-ie &apos;r, geaffronteerd in &apos;t bijzijn van die méid! Is mijn dochter &apos;n opraapsel van de straat? Staat mijn dochter bij jou in de schúld? De brutaaligheid &ndash; de brutaaligheid van die kwajongen! En joùw schuld! Joúw schuld!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Net wat &apos;k zei.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Práten jullie maar. Ik wor zelf &apos;t zwaarst gestraft.... Voelen jullie dan geen zier meelij?
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Jij ben te koppig. Jij neèmt je gelijk. Met jou kan niemand over-weg.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>&apos;k Heb &apos;t &apos;t éérst zien ankommen. Ik vóélde dat &apos;r wat was. Ik wist &apos;t vóor jullie....
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Hoor, wat &apos;n redeneering! Hij ziet &apos;t ankomme, hij weet &apos;t voor ons... En geen mond doet-ie open. As ik in me huis &apos;n meid heb en me zoon &ndash; hád &apos;k &apos;r een! &ndash; me zoon die kruipt <pb id=pb89 n=89>in d&apos;r bed &ndash; dan &ndash; dan waarschouw &apos;k me zoon &ndash; dan ben &apos;k as vader verplicht te waarschouwen dat-ie niet blijft hàngen &ndash; dat-ie geen strop krijgt &ndash; zooas m&apos;n vader-zaliger mijn gewaarschouwd heit &ndash; toen &ndash; toen &ndash; &apos;t was &apos;n mooie meid &ndash; gekheid, &apos;t is làng voorbij &ndash; toen &apos;k in m&apos;n jonge jaren was. Dat ben je as vader verplicht. En luistert-ie niet &ndash; dan &ndash; dan roep je de meid &ndash; en dan maak je geen herrie &ndash; herrie maakt &apos;n nàr &ndash; en je geeft &apos;r twintig gulden, dertig, veertig &ndash; as ze lastig wordt honderd &ndash; &apos;t is weggesmeten geld &ndash; maar as je &apos;t niet doet? &ndash; as je &apos;t nièt doet krijg je grijze haren van zorg en ellende &ndash; en, en, en je zet &apos;r met &apos;t geld je deur uit &ndash; en je neemt &apos;n reçu &ndash; zonder reçu geen geld &ndash; en je belooft as ze stil is en wegblijft nóg wat geld na máanden. &ndash; D&apos;r is geen meid die née zegt &ndash; fèl zijn ze op honderd gulden! Ze doen &apos;r &apos;n moord voor.... Nou? Nou? En wat doe jij? Jij smoest voor jezelf. Jij laat God&apos;s water over God&apos;s akker loopen &ndash; en, en, en, as &apos;t te laat is maak je lawaai. Maak lawaai vóór &apos;t te laat is. Wat is je verdienste dat je &apos;t heb zien ankommen? Waar laat je je winst? Nog nooit heb &apos;k iemand zoo dwars zien handelen, zoo averechts. &apos;t Is bijzonder. &apos;t Is reusachtig. Hèb je je zoon gewaarschouwd? Hèb je de meid afgekocht?
+</sp>
+
+<pb id=pb90 n=90><sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Hij laat zich niet waarschouwen....
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>En de meid? Nou?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Die laat zich niet afkoopen....
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Zal ik jou is wat zeggen? Je mag &apos;n goed koopman zijn, maar van die dingen heb-ie geen cent verstand, geen cent, geen hálve cent. Daar heb-ie de zoon van Salomon &ndash; Salomon van de Dwarsstraat. Heb-ie niet gehoord van de zoon van Salomon? Dan zal &apos;k &apos;t je vertelle. Die jongen had &apos;n strop &ndash; en wát &apos;n strop. Zoover is joúw Rafaël nog niet eens. Daar mag je dankbaar voor zijn. Toen Salomon zich d&apos;r mee bemoeide had de meid al &apos;n kind. En wat heit Salomon gedaan? Salomon heit z&apos;n zoon op de reis gestuurd en de meid afgekocht, voor twee, driehonderd gulden, weisz-ich-viel! En toen ze werom kwam &ndash; vertrouwe kan je ze niet &ndash; heit-ie &apos;n agent late komme, &apos;n agent van politie en toen was &apos;t uit. Zal &apos;n verstandig man anders handele? En handele de christenen anders? Spiegel je an de christenen. Met geld krijgen joden èn christenen alles gedaan. Heb je geld? Je hèb geld. Gebruik &apos;t dan. Eergister zag ik &apos;n christene trouwpartij. En bij &apos;t stadhuis daar had je &apos;n scène! Daar stond &apos;n meid met &apos;n kind. En die maakte spektakel! Reusachtig. En in &apos;n oògwenk <pb id=pb91 n=91>was ze gebrocht na &apos;t bureau! Had ze &apos;t niet angeleid met &apos;n heer boven d&apos;r stand! Had ze niet ja-gezeid! As ze nee zegge gebeurt &apos;r niks. Allemaal d&apos;r éigen schuld. As ze niet luistere willen motten ze voélen!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>&apos;t Is nou te laat....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Wat is te laat? D&apos;r is niks te laat. Aaron heit recht.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Doe wat je wil! Ik ga naar binnen. &apos;k Heb &apos;t koud. Ik zeg je &ndash; ik zeg je &ndash; d&apos;r valt niks te verhelpen.
+</sp>
+
+
+
+
+<div2 id=t3.4>
+<head>VIERDE TOONEEL.</head>
+
+
+<stage><hi>Aaron.</hi> <hi>Esther.</hi></stage>
+
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Redeneer daar tegen in.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>As hij geen verstand heit, heb jij &apos;t voor twéé.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>As &apos;k maar kon.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Met &apos;n zoet lijntje krijg je alles gedaan. Sachel is &apos;n geweldenaar. Reusachtig. Wat bereik je met geweld? Geen sikkepit. &apos;t Doet me hartzeer. Zou je dan denken dat ik me zooveel moeite zou geven om die snotneus &ndash; om die leeglooper &ndash; as &apos;k niet wist dat mijn Rebecca d&apos;r zinnen op <pb id=pb92 n=92>&apos;m gezet heit? Kan ze &apos;r niet honderd-duizend krijgen? Met veel meer geld? Maar ze wil.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>O, dat krèng, dat &apos;n heele familie verstoort.... As &apos;k &apos;r had onder me handen!
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Daar heb je d&apos;r waarachtig!
+</sp>
+
+
+
+
+<div2 id=t3.5>
+<head>VIJFDE TOONEEL.</head>
+
+
+<stage><hi>Aaron.</hi> <hi>Esther.</hi> <hi>Rose.</hi></stage>
+
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>&apos;k Ben laat.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Wel nee, kind. Welnee. &apos;k Was al ongerust.
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>&apos;t Is &apos;n schrikkelijk end. &apos;k Heb &apos;n uur lang gezocht, kon &apos;m niet vinden en toen &apos;k &apos;r eindelijk was, moest &apos;k &apos;n heele tijd wachten voor Meijer thuis kwam.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Nou, da&apos;s niks hoor.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Zoo&apos;n lange wandeling is heel gezond, best voor de spijsvertering.
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Hij kan morgen niet komen.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Kan-ie niet?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Eerst Maandag.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Best. Best. Heb je Rafaël gezien?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Rafaël?
+</sp>
+
+<pb id=pb93 n=93><sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>&apos;k Dacht zoo &ndash; &apos;k bedoel &ndash; Hij ging juist &apos;n boodschap....
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>&apos;k Heb &apos;m niet gezien.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Je zal wel moe zijn, hè? Ga maar binnen. D&apos;r staat wat koud vleesch .... Maar &ndash; maar wacht is....
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Roep u nog?
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther<corr>.</corr></hi></speaker> <p>.... Dat wil zeggen &ndash; dat wil zeggen &ndash;
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Ik wou je wat vragen &ndash; &apos;k sprak &apos;r met de juffrouw over &ndash; of &ndash; of &ndash; zou jij geen zin hebben &ndash; &apos;k val maar met de deur in huis &ndash; om &ndash; om bij mijn te kommen?....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Dat wil zegge....
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Dat wil zegge &ndash; laat mijn nou gaan! &ndash; dat &apos;k in de verlegenheid zit, in &apos;n gróóte verlegenheid &ndash; te lang om zoo in-eens uit te leggen &ndash; en toen sprak &apos;k zoo....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>&ndash; ja toen spraken we &apos;r over....
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>.... Zie je, niet voor gòed &ndash; maar zoo tijdelijk &ndash; voor &apos;n paar dagen, voor &apos;n week...
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Ja nàtuurlijk....
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron<corr>.</corr></hi></speaker> <p>.... En na die paar weken &ndash; ga je weer na Esther terug &ndash; of &ndash; of &apos;t most je zóó bij mijn bevallen! Hahaha! &ndash; &apos;t Most je zoo bij mijn <pb id=pb94 n=94>bevallen dat je niet meer terug wil. Esther heit &apos;r niks op tegen....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Dat wil zegge.... &apos;k Heb &apos;r &apos;n hééle boel op tegen &ndash; maar je mot mekaar helpe.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>En je verdient &apos;n heele duit extra &ndash; Dat kan je mijn overlaten....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Dat is waar &ndash; dat kan je Aaron overlaten....
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose</hi></speaker> <stage rend=inline>(<hi>rustig</hi>).</stage> <p>Dus &ndash; ik moet wèg?
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Wat zeit ze? Je mot? Je mot? Je mot niks! &apos;t Wordt je vrindelijk verzocht. Je mot? Je wor niet gedwòngen!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Hoe kòm je &apos;r op?.... Nog voor geen góúd! As &apos;r iemand tevrejen over je is, ben ìk &apos;t! Dat weet je. Enkel de kwestie van &apos;n paar dagen...
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Och, &apos;t is niet de moeite waard om lang over te praten. Mijn huishoudster is &apos;r van door &ndash; met d&apos;r beminde, hahaha! &ndash; en m&apos;n dochter is de godganschelijke dag in de zaak &ndash; zoo kan je ontriefd zitten!....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther<corr>.</corr></hi></speaker> <p>&ndash; ja, &apos;t is &apos;n last....
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Of &apos;t! &ndash; En niewaar: ik doe &apos;r júllie geen overlast mee? Jij wil je wel &apos;n paar dagen behelpen?
+</sp>
+
+<pb id=pb95 n=95><sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>&ndash; Je weet wat &apos;k gezeid heb: liever niet. Maar in de steek laat &apos;k je niet. Is &apos;t goed, Roos?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Nee.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Wat nee?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Ik doe &apos;t niet.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Jij doet &apos;t niet? En wáárom doe jij &apos;t niet, as &apos;t je zoo vrindelijk verzocht wordt?
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Ja &ndash; dat is onzin! Op me woord van waarachtig: je heb &apos;r geen nadeel bij.
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Dat kan me niet schelen.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Toon nou geen kop, kind! &apos;k Meen &apos;t goed met je &ndash; &apos;k zal je niks anrajen of je komt &apos;r mee vooruit.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Me dochter is &apos;n zachtzinnig meissie &ndash; andere huisgenooten heb &apos;k niet....
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Je dóchter.... &ndash; Nee.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Blijf hier.
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Waarom jaag je me niet weg &ndash; zònder omwegen?
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Niemand jaagt je weg, malle meid. Praat ik niet in vrindschap met je? Je mot niet overal wat achter zoeken.
+</sp>
+
+<pb id=pb96 n=96><sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Je wil me kwijt. Goed. Zeg &apos;t eerlijk. Mot &apos;t dàdelijk?
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Wat &apos;n opwinding voor &apos;n bagatel. Laat ìk nou is duidelijk make....
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>&apos;k Heb met jóu niks te praten. Mot &apos;t dàdelijk?
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Wel nee! Hoe kom je &apos;r op? Al wou je járen bij me blijven. Ik had alleen liéver....
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Gekheid! Gekheid! Jij draait &apos;r om heen. Zoo kom je &apos;r nooit!.... Zal &apos;k jou is wat zegge, meissie: je mag God danke dat je bij zulke goeie mensche beland ben &ndash; ik zou je anders behandele!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Wat waar is, is waar. &apos;n Zoon van z&apos;n vader hale &ndash; netjes is &apos;t niet!....
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Ah!
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Netjes? Geméén is &apos;t!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Gemeen &ndash; geméen! Dát zal &apos;k niet beweren. &apos;k Kan begrijpe dat &apos;n knappe jonge meid &apos;n oogie laat vallen op &apos;n knappe jongen &ndash; maar alles heit z&apos;n grenzen. &ndash; Je wéet dat &apos;t niet gaat. Vreemd geloof trouwt niet met vreemd geloof. &ndash; Dat is &apos;t zondigst wat &apos;r bestaat. Daar hoeven we heelemaal niet over te praten. Dat <pb id=pb97 n=97>leit voor de hand. Maar &apos;k neem &apos;t je niet kwalijk! God beware! Rafaël is &apos;n sjieke jongen. &apos;k Begrijp &apos;t best....
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>&apos;n Jood met &apos;n christene vrouw of &apos;n christen met &apos;n jodene vrouw dat gààt niet. Wij zijn oùwer, wij kenne de wereld beter. Jij komp pas kijke. Trouw jij met een van joùw geloof. Daar doe je wijs an. Wat niet bij mekaar past mot je niet met geweld bij mekaar brengen. &apos;t Ongeluk leit &apos;r dik bovenop, dikker dan je denkt.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>En nog niet eens van z&apos;n vader gesproken &ndash; van z&apos;n ongelukkigen vader. Sterft-ie niet van hartzeer om wat &apos;r gebeurd is? Wees jij nou wijs en ga &apos;n dag of veertien weg. Dan is Sachel gekalmeerd en kan jij ook is dénke...
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Ik heb niet te denken. Ik hou van hem en &apos;k laat &apos;m niet los....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Dàt pleit voor je karakter. As je dadelijk jà zei, zou je geen knip voor je neus waard zijn. D&apos;r is geen meissie over de heele wereld dat née zeit as ze jà meent &ndash; in diè dinge. En &ndash; en &ndash; &apos;k zal niet bewere dat je &apos;m dàdelijk mot láten &ndash; dat zou gróóte gekkigheid zijn &ndash; &apos;k zal de laatste zijn om je an te rajen tegen je geweten <pb id=pb98 n=98>in te handelen &ndash; maar ga nou is na &ndash; ga nou is góed na &ndash; hóé wou je hier blijven? &ndash; hóé wou je blijven nou we alles weten....
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Dat wil ik ook niet. Ik ga met Rafaël...
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther</hi></speaker> <stage rend=inline>(<hi>kwaadaardig</hi>).</stage> <p>Jij gaat! Jij gáát!....
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Stil nou! Niet driftig! Dat geeft allemaal niks. As ik &apos;n woordje zeggen mag: &apos;t is onzin, meid! Reusachtig. In de eerste plaas kàn &apos;t niet &ndash; in de tweede plaas &ndash; às &apos;t kon &ndash; zou &apos;t nòg niet kennen. Ik heb joden gekend en christene die &apos;t gedaan hebben. &apos;t Ongeluk lag &apos;r bovenop &ndash; zei &apos;k straks al &ndash; En met jóu kan &apos;t nog in geen dúízend jaren &ndash; bij wijze van spreken &ndash; over duizend jaar zijn we allemaal dood. &ndash; Want let nou is op: is z&apos;n vader blind ja of nee? Z&apos;n vader is blind. Wat wou jij met die blinde man beginnen? Daar kan je niks mee beginnen. Die z&apos;n ideejen verander je niet. Wij zijn liberaler. Maar &apos;n man van die leeftijd die buig je niet &ndash; die bréék je. Wou je bij &apos;m inwonen? Nog geen spoog water zal-ie bij je gebruiken, nog geen handdruk zal-ie je geven. Wou je nièt bij &apos;m inwonen? Dat wil zeggen wou je &apos;m an z&apos;n lot overlaten &ndash; we zijn allemaal sterfelijk en Esther is op leeftijd &ndash; wou je dàt? &apos;n Ramp as je &apos;t doet! Geen sekonde rust in je <pb id=pb99 n=99>leven. En later de verwijten! Later verwijt hij jou, dat je &apos;m van z&apos;n vader gehaald heb &ndash; familie blijft familie! Later heb je allebei spijt &ndash; dat wil zeggen &ndash; as &apos;t kon dat jullie samen &ndash; maar &apos;t kàn niet....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Heel verstandig. En as je luistert ben je góed af.... Met plezier heb &apos;k &apos;r wat voor over....
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Wat voor óver?
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>&apos;k Ben nìet rijk.... &apos;k Leef zelf van me broer &ndash; maar as je &apos;t dée &ndash; as &apos;n góed kind &ndash; as &apos;n verstandig kind &ndash; dan kreeg je buiten je loon &apos;n.... &apos;n....
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Zeg vijftig gulden!
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>O! O! Vijftig gulden!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Honderd! Daar! Honderd guldens is &apos;n boel geld.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>&apos;n Héele boel. En trouw je later met &apos;n fàtsoenlijke burgerjongen &ndash; dan schiet &apos;r nòg wel wat over.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>En alles wat &apos;k je gegeven heb, kan je houen &ndash; en ik reken je maand vol-uit....
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>O, tuig, tuig! Vervloekt tuig!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther</hi></speaker> <stage rend=inline>(<hi>snerpend</hi>).</stage> <p>Wat zeg je, jij slét!
+</sp>
+
+<pb id=pb100 n=100><sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Stil nou! Maak geen burengerucht! Jullie begrepen mekaar niet. Gebruik nou je hoofd, stomme meid! &apos;r Komt tòch niks van, niks &ndash; tusschen jou en die jongen. &apos;t Kan niet. Je heb &apos;t vooruit geweten. Je ben de eerste niet. Je zal de laatste niet zijn. Ga dan niet op je achterste pooten staan. Wat bereik je &apos;r mee? Dat wij geweld met gewèld keeren. Want wij hebben &apos;t recht op onze hand! &ndash; En as je dat weet &ndash; handel verstandig &ndash; neem wat je krijgen kan....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Twéé honderd guldens hebben we &apos;r voor over....
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>En doe je &apos;t niét &ndash; dan ben je éven ver, dan win je geen zier &ndash; dan wor je zóó an de deur gezet....
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Ik laat me niet an de deur zetten! Ik vraag m&apos;n man. Anders niet!
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Je man! Hahaha!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Je man? Je man?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Mijn man! Mijn man die jullie me niet ontnemen kunnen! Mijn man die eerlijk en groot is! Mijn man die niet buigt voor jullie gèld, zoo min als ik &apos;t doe! O! O!... Dat ze me zóo iets kunnen andoen!
+</sp>
+
+<pb id=pb101 n=101><sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Jouw man? Wiè is jouw man? Ben je dan heelemaal doof meid, dat je niet begrijp &ndash; na zooveel, zóóveel woorden &ndash; dat-ie met mìjn dochter trouwt?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Dat lieg je!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Jij liegt gemeen schepsel die onze jongen angehaald heb, angehaald met je hóerestreken!
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Niks van je beleedigingen voel &apos;k. God heeft &apos;t gewild! Júllie halen ons niet van elkaar!
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Hahaha! Nou wordt ze prachtig &ndash; as in &apos;n bóék! Ik lach me &apos;n ongeluk! As je &apos;t dan weten wil: vanmiddag is &apos;t &apos;r door gegaan, vàn mìddag....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>En daarvoor hebben we je uitgezonden!
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>En over vier weken trouwen ze!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther</hi></speaker> <stage rend=inline>(<hi>krijschend</hi>).</stage> <p>Versta je? Versta je? En nou me deur uit! Me deur uit! En geen stuk neem je mee! Me deur uit! Op staande voet<corr sic=" l">!</corr>
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Nee-nee! Ik ga niet zonder hém! Jullie, belíegt me! Anders zou je geen géld gebojen hebben!
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Wie zegt je, dat hij &apos;t niet verzocht?...
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Wàt zeg je?
+</sp>
+
+<pb id=pb102 n=102><sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Heb &apos;k &apos;t zélf niet gehoord dat we tot twééhonderd gulden mochten gaan?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Je liegt! Je liegt! O, kerel wat ben je laag!
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Lieg ik? Hoor je dat Esther? Zal &apos;k &apos;r &apos;n vloek op doen?
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Laat &apos;r gaar koken in d&apos;r eigen vuil! &apos;k Heb &apos;r genog van! <stage rend=inline>(<hi>hàrder krijschend</hi>).</stage> Jij serpent durf jij &apos;t hoogste woord voeren? Jij die ongeluk brengt over &apos;n heele familie! Jij! Jij! Wat doe je nog hier? Wat let me of....
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Kalm nou! Kalm nou! Brand je vingers niet! Ze wéét &apos;t nou. Ze weet dat Rafaël binnen &apos;n maand trouwt en dat-ie &apos;r twééhonderd gulden biedt &ndash; en geen cent meer &ndash; versta je: twééhonderd gulden òm vàn jè àf tè kòmmen.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>En me huis niet meer in! Geen voet meer over me drempel! Geen voet hoor!
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Gelijk heb je. Laat &apos;r maar uithuilen. &ndash; As je nou dádelijk bij mijn thuis komt is de zaak in orde. &apos;t Geld leit klaar. Op die jongen hoef je niet te wachten. Die is weg.
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Weg?
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Weg voor &apos;n hééle poos.
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Waarheen?
+</sp>
+
+<pb id=pb103 n=103><sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Dat mag ik je niet zeggen!
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>O God, belieg me niet! Belieg me niet!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>As-ie nièt weg was, had j&apos;m al lang gezien. &apos;n Bewijs dat Aaron de waarheid zeit.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Nou? Neem je &apos;t an?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose</hi></speaker> <stage rend=inline>(<hi>suffig</hi>).</stage> <p>Ik weet &apos;t niet.... Ik weet &apos;t niet.... Ik wor gek.... Ik kan niet meer.... O lieve heer Jezus!....
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Sust! Niks meer zeggen.... &apos;t Kòmt in orde. Nou. Nou. We loopen &apos;n grachie om. Bedenk je terwijl. Op straat kan je niet slapen.
+</sp>
+
+    <stage type=exit>(<hi>Af.</hi>)</stage>
+
+
+
+
+<div2 id=t3.6>
+<head>ZESDE TOONEEL.</head>
+
+
+<stage><hi>Rose.</hi> <hi>Sachel.</hi></stage>
+
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Mot &apos;k de heele avond alleen blijven? Hoor je niet, <hi>Esther.</hi>
+
+<sp who=rose>
+<speaker><hi>Rose</hi></speaker> <stage rend=inline>(<hi>angstig-opschrikkend</hi>).</stage> <p>Ik ben &apos;t....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel</hi></speaker> <stage rend=inline>(<hi>woest</hi>).</stage> <p>Jij! Jij!....
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>O God &ndash; doe me niks &ndash; doe me niks &ndash; &apos;k Ben zoo bang voor je.
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Wat mot je nog hier?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Ik weet &apos;t niet....
+</sp>
+
+<pb id=pb104 n=104><sp who=sachel>
+<speaker><hi>Sachel</hi></speaker> <stage rend=inline>(<hi>woest</hi>).</stage> <p>Durf jij nog....
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>O nee..... &apos;k durf niks..... &apos;k zal wel gaan.... as je maar niet....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>.... Ik zal je niet vermoorden.... Ik zié je niet, &apos;k heb geen kracht meer &ndash; jij, uitvaagsel!... Jij, jij, jij....
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Ja &ndash; ja &ndash; Je heb gelijk &ndash; je heb gelijk &ndash; &apos;k Ben suf &ndash; In Godsnaam &ndash; In Godsnaam drijf me &apos;t wàter niet in!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>.... &apos;t Water....
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Kwam-ie maar.... Kwam-ie maar.... O Rafaël! Rafaël!...
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Hou je bek! Ruk uit! Ruk uit, zeg &apos;k je!
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose</hi></speaker> <stage rend=inline>(<hi>smeekend</hi>).</stage> <p>Zeg dan of &apos;t waar is..... Jij ben blind &ndash; Je ziet niks dan donker &ndash; <hi>Jij</hi> kan niet liegen &ndash; dat voel &apos;k &ndash; hoe zou <hi>jij</hi> kunnen liegen &ndash; zeg of &apos;t wáár is dat-ie met Rebecca trouwt....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Dat raakt je niet! Ruk uit! Of &apos;k zal je weg-ranselen &ndash; met me ouwe handen!...
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Ik heb je niks misdaan, nooit wat misdaan! Zeg of &apos;t wáár is! Sachel! Sachel!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Niks misdaan? En m&apos;n zoon?... M&apos;n zoon?
+</sp>
+
+<pb id=pb105 n=105><sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>O, praat daar nou niet over! Nou niet! &ndash; Trouwt-ie Rebecca? Trouwt-ie Rebecca?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Dacht je dat-ie joù trouwen zou, jou, &apos;n christin, jou, &apos;n méid! Wou je méér zijn dan z&apos;n tijdverdrijf, meer dan z&apos;n bijslaap?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>O! O! Lieg jìj niet! Ze hebben me geld gebojen, géld! Ze hebben me willen afkoopen... Ze hebben me neergetrapt erger dan &apos;n hoer! Hoor me nóu! Hoor me! Wat hebben jullie an m&apos;n ongeluk. Niks heb &apos;k op de wereld. Niks. En &apos;k hou zoo van &apos;m, zoo alles. Wat kan &apos;t me schelen of jullie joden zijn. &apos;k Denk &apos;r niet an. &apos;k Vraag &apos;r niet na. &apos;k Hou van jullie allemaal, van jou en van Esther, van wie hier komt. Als &apos;k maar blijven mag, blijven. Enkel blijven &ndash; als-ie háár maar niet trouwt! O Sachel, Sachel, draai je gezicht niet af. Je hoort da&apos;k haast krankzinnig wor. &apos;k Zal goed voor je zijn. Je zal niet te klagen hebben, nooit, nooit! &apos;k Wil jodin worden, alles wat je maar zegt. Alles. Maar jaag me niet weg. Ik kan niet leven alléén, zònder hem. Kom nou. Toe nou!<corr sic=..>...</corr> Zég &apos;n woordje... Je maakt me bang met je oogen. Kijk me zoo niet an, Sachel!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel</hi></speaker> <stage rend=inline>(<hi>rauw</hi>).</stage> <p>Raak me niet an. Had &apos;k je liever gewurgd voór &apos;k je in me huis nam &ndash; jij....
+</sp>
+
+<pb id=pb106 n=106><sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>... Scheld niet! &apos;k Ben kapot genoeg! Zeg &apos;t! Zeg dat Aaron gelogen heeft, dat-ie me niet in de steek laat!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel</hi></speaker> <stage rend=inline>(<hi>hard</hi>).</stage> <p>Blijf van me af, ongeluksmeid, bedriegster! Was gekrepeerd de dag van je eerste ontucht! Was....
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Ja-ja. Vloek me. Vlóek me! Maar lieg niet! Zeg wat je wil, alles goed, alles goed!... Is &apos;t wáár?... Ze hebben me.. O, &apos;k wor gek...
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Jij heb mijn jongen... Heb je an mijn gedacht.... An mìjn ouwen dag?<corr sic=",..">...</corr>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Nee. Ja.... Verwijt nou niks.... &apos;t Is niet meer te verhelpen... &apos;k Wil &apos;t wel goed maken, als &apos;t kán, als &apos;t kán...
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>&apos;t Kan niet meer. Ruk uit!
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>O nee, nee... Wéet wat je doet, Sachel! Sachel, weet wat je doet!...
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>&apos;k Weet wat &apos;k doe, &apos;k weet dat &apos;k je haat, &apos;k weet dat &apos;k je bloed zou kunnen drinken...
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Goed. Goed. Haat me. Vervloek me. Verwensch me. Maar de waarheid! De waarheid! Jij kán niet liegen, jij met je blinde oogen! Ze wouen me tweehonderd gulden geven &ndash; zeien dat &apos;t van Rafaël kwam, dat-ie weg is, me verschopt.... O, dat is schrikkelijk, niewaar Sachel,<pb id=pb107 n=107> &ndash; schrikkelijk om zóó je eeden te breken!.... Toe nou! Toe nou! &apos;k Sta voor je te beven.... Zeg dan iets, iets... Als &apos;t waar is &ndash; als &ndash; als &ndash; dan &ndash; verdrink &apos;k me voor je oogen, dan wil &apos;k niet langer leven, geen oogenblik langer. Want wat heb &apos;k dan nog? Dan heb &apos;k niks meer, niks, niks! O, jij weet niet wat niks is!...
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel</hi></speaker> <stage rend=inline>(<hi>dof</hi>).</stage> <p>Ik? Ik? Ik zou &apos;t niet weten!
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>O jij ook. Jij ook. Maar niet zoo!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel</hi></speaker> <stage rend=inline>(<hi>zachter</hi>).</stage> <p>Niet zoo? Wat heb ik dan! Ik?<corr sic=..>...</corr>
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Jij.... jij.... O je ben óok ongelukkig.... Maar je leeft.... je weet niet wat liéfde is.... Je weet niet.... Toe! Toe! We zullen goed voor je zijn.... We zullen.... Je heb alles in je eigen hand....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel</hi></speaker> <stage rend=inline>(<hi>snauwend</hi>).</stage> <p>&apos;k Mot niks van jou
+hebben!
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Hahaha! Dan hebben ze gelogen! Dan heeft Aaron gelogen! Dan heeft Esther gelogen! Dan.... Dan.... Als &apos;t waar was zou je &apos;t zeggen. En je zegt niks! Als-ie vanmiddag beloofd had Rebecca te trouwen zou jij &apos;r om làchen, had je al lang geroepen jà, jà! Hahaha!... O, nou lukt &apos;t niet! Nou wacht &apos;k &ndash; nou wacht &apos;k op &apos;m de heele nacht!....
+</sp>
+
+<pb id=pb108 n=108><sp who=sachel>
+<speaker><hi>Sachel</hi></speaker> <stage rend=inline>(<hi>woest</hi>).</stage> <p>Wacht niet &ndash; wacht niet &ndash; hij
+komt nièt!
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Hij komt! Hij komt!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Hij komt nièt. &ndash; &apos;t Is wáár!
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Zweer &apos;t! Zweer &apos;t Sachel!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Laat me met rust slet van m&apos;n zoon, slet die an me tàfel zat, slet die me bedrogen heeft, onder me eigen dak!
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Zweer &apos;t, toe! &apos;k Geloof jóu. &apos;t Water is zoo dichtbij.... &apos;k Ben gèk, gèk.... drijf me &apos;r niet in met &apos;n leugen....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel</hi></speaker> <stage rend=inline>(<hi>heesch</hi>).</stage> <p>Verdrink je voor mijn part! Mot ik je terughouen, ik, ik?
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>O, wees niet zoo wreed....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel</hi></speaker> <stage rend=inline>(<hi>woest</hi>).</stage> <p>Alles is waar. En verdrink je nou! Jij &ndash; jij &ndash; jij je verdrinken!... Jouw sóórt, verdrinkt zich niet!
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Dus hij komt niet terug?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Nee! Vort!
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Zweer &apos;t... Zweer bij de geboden op de post van je deur....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel</hi></speaker> <stage rend=inline>(<hi>legt vluchtig de hand op de</hi> <hi rend=ex>mezoesos</hi>).</stage> <p>&apos;k Zweer. &ndash; &apos;k Zweer. &ndash; En nou wèg! Dat geld kan je krijgen. &ndash; Dat gèld....
+</sp>
+
+<pb id=pb109 n=109><sp who=rose>
+<speaker><hi>Rose</hi></speaker> <stage rend=inline>(<hi>versuft</hi>)</stage> <p>... Dan... dan... ja, dan... lieve Jezus....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel</hi></speaker> <stage rend=inline>(<hi>angstig</hi>).</stage> <p>Waar ga je heen?...
+</sp>
+
+<sp who=rose>
+<speaker><hi>Rose.</hi></speaker> <p>Nergens.... nergens....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel</hi></speaker> <stage rend=inline>(<hi>schreeuwend</hi>).</stage> <p>Niet bij &apos;t water kommen! Niet bij &apos;t water!... <stage rend=inline>(<hi>zij springt in de gracht</hi>).</stage>.. God! &apos;t Is niet waar, Rose! Rose! <stage rend=inline>(<hi>bukt zich naar het water</hi>).</stage> Hier is m&apos;n hand! &apos;n Stok! &apos;n Stok! Is &apos;r geen stok! Waar ben je? Antwoord dan! Hoor je me niet? O! O, godlief &ndash; godlief &ndash; O! O! <stage rend=inline>(<hi>bonst op de deur van den buurman</hi>).</stage> Levi! Levi, doe open! Niemand thuis! <stage rend=inline>(<hi>bukt opnieuw bij den walkant</hi>).</stage> Hier is m&apos;n hand. Hier! Hier! Geef dan antwoord!... Hou je mond niet! God, God, laat &apos;r niet verdrinken. Rose! &ndash; Roòòòse! &ndash; O, geen geluid!... Geen enkel geluid!... <stage rend=inline>(<hi>wankelt naar de bank voor den uitdragerswinkel</hi>).</stage>
+</sp>
+
+
+
+<div2 id=t3.7>
+<head>ZEVENDE TOONEEL.</head>
+
+
+<stage><hi>Sachel.</hi> <hi>Esther.</hi> <hi>Aaron.</hi></stage>
+
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Is die meid wèg? Heb je die meid niet gezien?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Die meid!... Die meid!... Wàt meid?
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Je maakt me schrikken! Wat scheelt <pb id=pb110 n=110>je? &ndash; <stage rend=inline>(<hi>tot Aaron</hi>).</stage> Mooie raad die je gegeven heb! Nou is ze vòrt...
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Zachies pratén. Zachies. Zachies.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Je lijkt wel gék!... Wat mot je toch!...
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Laten we naar binnen gaan &ndash; naar binnen.
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Hij klappertandt &ndash; hij heit koorts...
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Dat lieg je!... Ik klappertand niet!... Ik, ik, ik.....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Waarom gil je zoo?...
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Sust!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Schei toch uit! Ben je &apos;n man of &apos;n kind?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>O! O!... Jullie motten bij me blijven &ndash; de heele avond &ndash; de heele nacht &ndash; me niet alleen laten! Kom nou. &ndash; Kom nou! De deur dicht. Stevig dicht. God-lief!
+</sp>
+
+
+
+<div2 id=t3.8>
+<head>ACHTSTE TOONEEL.</head>
+
+
+<stage><hi>Rafaël.</hi> <hi>Sachel.</hi> <hi>Esther.</hi> <hi>Aaron.</hi></stage>
+
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Wat gebeurt hier?
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Hij vraagt wat &apos;r gebeurt!...
+</sp>
+
+<pb id=pb111 n=111><sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Durf jij dat vragen!<corr sic="..,">...</corr>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Vermoorden doe je &apos;m, die ouwe man! Kijk in wat &apos;n toestand je &apos;m gebracht heb!
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Ben jij &apos;n zóón? &apos;n Ouwe blinde vader die je krankzinnig maakt!...
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Niet zoo hàrd praten!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Steek dan je pooten uit en breng &apos;m naar binnen!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Kom vader!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Weg jullie tuig! &ndash; Alleen m&apos;n zóón. O, Rafaël, lieve jongen, goeie jongen! Wat motten jullie van me? &apos;k Ben ziek, &apos;k ben op. Laten we naar binnen gaan! Vóór Levi thuis komt. Weg jij!
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Hou je daar bij in! Dat mot je ànhooren!... Kindsch wordt-ie.
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Wees stil! Zìe je niet dat-ie ziek is....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Heb ìk &apos;r schuld an &ndash; jij, leeglooper!...
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>&apos;k Zou háár nog verwijte!... Og, dat loopt de spuigaten uit!...
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Ziek? Ziek? Had &apos;m niet z&apos;n kop gek gemaakt met die meid, met jouw slêt!...
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Mijn slèt... Pas op! &apos;k Ben in geen stemming om je vuilheden an te hooren!...
+</sp>
+
+<pb id=pb112 n=112><sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Mijn vuilheden? Mijn vuilheden?.... Ongeluk!<corr sic=..>...</corr> Daàr zit jouw werk! In je graf zal je nog geen minuut rust hebben &ndash; jij niet en die slet niet!...
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Pas op!... Pas op!... Je kent me nog niet! Als je m&apos;n vrouw met één woord beleedigt als ze daar thuis komt...
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>&apos;k Lach om je dreigementen! Zijn vrouw! De meid die mijn vuil gereinigd heit! Zoek &apos;r! Ze is goddank vort... Met &apos;n fooi was ze af te koopen!...
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël<corr sic=..>.</corr></hi></speaker> <p>Beest!...
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Niewaar! Niet gelooven, Rafaël. Ze liegt &apos;t...
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Waar is ze dan?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>&apos;k Weet &apos;t niet! &apos;k Weet &apos;t niet! &apos;k Heb &apos;r niet gezien!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Waar heb je &apos;r heengezonden dat ze zoo lang wegblijft? Uren wacht &apos;k voor niks.
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Hij maakt zich bezorgd over dat krèng! <stage rend=inline>(<hi>Gerucht</hi>).</stage>
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Stil! <stage rend=inline>(<hi>loopt op de gracht toe</hi>).</stage>
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel</hi></speaker> <stage rend=inline>(<hi>schreeuwend</hi>).</stage> <p>Niet bij &apos;t water!.....
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Schreeuw toch zoo niet.
+</sp>
+
+<pb id=pb113 n=113><sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Ze kommen door de poort...
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>O! O!
+</sp>
+
+
+
+
+<div2 id=t3.9>
+<head>NEGENDE TOONEEL.</head>
+
+
+<stage><hi>Sachel.</hi> <hi>Esther.</hi> <hi>Aaron.</hi> <hi>Rafaël.</hi> <hi>Bewoners.</hi></stage>
+
+
+<sp who=bewoner>
+<speaker><hi>Een bewoner.</hi></speaker> <p>We hebben &apos;n vrouw opgehaald...
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Weg &apos;r mee!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Rose!...
+</sp>
+
+<sp who=bewoner>
+<speaker><hi>Een bewoner.</hi></speaker> <p>Ze lag voor de tralies van &apos;t riool bij ons... &apos;k Wou water scheppen...
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël</hi></speaker> <stage rend=inline>(<hi>tot Esther</hi>).</stage> <p>Dat heb jij gedaan!...
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Ik? Zoo waar hoort me God...
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Roep God niet an! Moordenaarster! Jij en hij!...
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Je ben krankzinnig!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>O, m&apos;n liefje, min hartje! Gòd, God, Gòd...
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Laat me los...
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Zeg op! Zeg op!...
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Je breekt m&apos;n pols, lafbek! <stage rend=inline>(<hi>Bewoners rukken Rafaël los</hi>).</stage>
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Jullie heb gelijk &ndash; gelijk. &ndash; Liefje, <pb id=pb114 n=114>liefje! D&apos;r haren &ndash; d&apos;r mooie blonde haren &ndash; vol slijk! &ndash; En d&apos;r oogen &ndash; d&apos;r mond. &ndash; Kijk d&apos;r mond! &ndash; Gestikt bij &apos;n riool &ndash; bij &apos;n riool! O, wat hebben jullie gedaan!
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>As je naar rede wil luistere...
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Naar rede? <stage rend=inline>(<hi>razend</hi>).</stage> Schurftige moordenaar!.....
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Rafaël!...
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Weg van me vader!...
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>&apos;k Kon &apos;r niet tegenhouen...
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Jij?... jij!...
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Rafaël!...
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Dus &ndash; Dus &ndash; Ze was hier met jóú?
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>O! O!...
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Je was &apos;r bij?...
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Ja-ja...
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>... Je heb &apos;t geweten!...
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Ik wou &ndash; Ik wou &ndash; O, m&apos;n jongen.
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>En al die tijd &ndash; Je opwinding &ndash; En je heb je bék gehouen!...
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Godlief!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>&ndash; Dus &ndash; dus &ndash; Jìj heb &apos;r in &apos;t water gejaagd, jíj!...
+</sp>
+
+<pb id=pb115 n=115><sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>O, o, m&apos;n jongen!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>&ndash; Je wou de deur grendelen &ndash; stevig grendelen &ndash; je wou &ndash; terwijl zij in die gracht lag, in die gracht van stinkend water &ndash; Breng &apos;m weg! Breng weg die kérel dat &apos;k &apos;m niet wùrg!...
+</sp>
+
+<sp who=grijsaard>
+<speaker><hi>Een grijsaard....</hi></speaker> <p>Zoo mot je niet tekeer gaan tegen je ouwe, blinde vader!...
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>M&apos;n vader! Hahaha!...
+</sp>
+
+<sp who=esther>
+<speaker><hi>Esther.</hi></speaker> <p>Zelf ben je oorzaak. &apos;r Most ongeluk van kommen. &apos;n Jood met &apos;n christin!...
+</sp>
+
+<sp who=aaron>
+<speaker><hi>Aaron.</hi></speaker> <p>Dat &apos;s de straf van Gòd...
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël</hi></speaker> <stage rend=inline>(<hi>smartelijk</hi>).</stage> <p>God? Welke God, stumpers?
+</sp>
+
+<sp who=grijsaard>
+<speaker><hi>Een grijsaard.</hi></speaker> <p>De God van de joden...
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Hahaha! &ndash; Van de joden! &ndash; Van de joden! O, hoon, hoon! Hoon van den waarachtigen God, die van geen grenzen weet! <stage rend=inline>(<hi>neerzinkend</hi>)</stage> Rose, Rose....
+</sp>
+
+<sp who=bewoner>
+<speaker><hi>Een bewoner.</hi></speaker> <p>... Laten we &apos;r weer opnemen...
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Blijf af!
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Rafaël! Rafaël!
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>Weg! Weg!... Niks heb &apos;k met jòù te maken!...
+</sp>
+
+<pb id=pb116 n=116><sp who=grijsaard>
+<speaker><hi>Een grijsaard.</hi></speaker> <p>... Denk an je plichten als zóon...
+Wat gebeurd is &ndash; is gebeurd.
+</sp>
+
+<sp who=rafael>
+<speaker><hi>Rafaël.</hi></speaker> <p>... Plichten &ndash; Wat gebeurd is &ndash; is gebeurd &ndash; Plichten &ndash; <stage rend=inline>(<hi>extatisch</hi>)</stage> O, &apos;k hèb plichten, gróóte plichten, plichten opgelegd door den God dien jullie niet kennen en de <corr sic=christnen>christenen</corr> niet kennen &ndash; plichten, gróóte plichten. <stage rend=inline>(<hi>hij verlaat het slop</hi>).</stage>
+</sp>
+
+<sp who=sachel>
+<speaker><hi>Sachel.</hi></speaker> <p>Rafaël! Rafaël!
+</sp>
+
+
+<trailer><hi rend=sc>Einde van het laatste bedrijf.</hi></trailer>
+
+
+
+</body>
+<back id=backmatter>
+<div1 id=dateline type=Imprint>
+
+
+<p rend=dateline><hi rend=sc>Amsterdam</hi>, 15 Sept. &ndash; 9 Nov. 1898.
+
+
+<pb id=pb117 n=117>
+<div1 id=bijlage type=Appendix>
+<head>BIJLAGE.</head>
+
+
+<p>Op de blz. 40 en 76 is een noot aangebracht. Die gezegden van Rafaël werden bij latere opvoeringen achterwege gelaten, na een correspondentie tusschen de &bdquo;Nederlandsche Tooneelvereeniging&rdquo; en den schrijver. Te curieus is de historie om haar onvermeld te laten:
+
+
+    <q rend=block><p rend=dateline><hi rend=sc>Amsterdam</hi>, 4 Januari 1899.
+
+    <p rend=address><hi>Den WelEd. Heer</hi>
+
+    <p rend=address><hi rend=sc>Herm. Heijermans Jr.</hi>,
+    <lb><hi>Alhier</hi>.
+
+    <p rend=salute><hi>Geachte Heer!</hi>
+
+    <p><hi>Ik ontving van den heer</hi> <hi rend=sc>Franken</hi>, <hi>hoofdcommissaris van politie, een uitnoodiging om naar aanleiding der</hi> Ghetto-<hi>opvoeringen even bij hem te komen</hi>.
+
+    <p><hi>Aan dat verzoek voldeed ik heden.</hi>
+
+    <p><hi>De heer</hi> <hi rend=sc>Franken</hi> <hi>wenschte in Uw stuk te doen wijzigen de gezegden van Rafaël op blz. 40 en 76. Ik wees hem er op, dat in geen der vijf voorstellingen, die plaats gehad hebben, deze gezegden tot eenige rustverstoring, <pb id=pb118 n=118>zelfs niet tot gefluit aanleiding gegeven hebben en dat trouwens elke voorstelling een stijgend succes had. De heer</hi> <hi rend=sc>Franken</hi> <hi>bleef evenwel in overweging geven, deze gezegden te verzachten of achterwege te laten, daar bij eventueel voorkomende wanordelijkheden</hi> de voorstelling onherroepelijk verboden zou worden.
+
+    <p><hi>Wilt U mij even omgaand mededeelen of U de gewenschte wijzigingen wilt aanbrengen?</hi>
+
+    <p rend=signed><hi>Na beleefde groeten</hi>
+
+    <p rend=signed><hi>Hoogachtend</hi>,
+
+    <p rend=signed><hi>n. d.</hi> N. T. V.:
+
+    <p rend=signed><hi>Uw dr.</hi>,
+    <lb><hi rend=sc>A. v. d. Horst</hi>,</q>
+
+
+    <q rend=block><p rend=dateline><hi rend=sc>Amsterdam</hi>, 4 Januari 1899.
+
+    <p rend=address><hi>Den WelEd. Heer</hi>
+
+    <p rend=address><hi rend=sc>A. v. d. Horst</hi>,
+
+    <p rend=address><hi>President-Directeur der</hi> &bdquo;Nederlandsche Tooneelvereeniging&rdquo;,
+    <lb><hi>Alhier</hi>.
+
+    <p rend=salute><hi>Geachte Heer</hi>,
+
+    <p><hi>Het doet mij genoegen dat de heer</hi> <hi rend=sc>Franken</hi>, <hi>hoofdcommissaris van politie, wiens critische bekwaamheden op letterkundig terrein ik volkomen <pb id=pb119 n=119>erken, zulke bescheiden wijzigingen verlangt. Ik ben het met U eens dat geen der drie gezegden eenig protest, laat staan &bdquo;rustverstoring&rdquo; ontlokte tijdens de 5 eerste voorstellingen. Om echter in</hi> <hi rend=sc>Uw</hi> <hi>belang te voorkomen dat &apos;s heeren</hi> <hi rend=sc>Franken&apos;s</hi> <hi>inzichten zich plotseling mochten verwerkelijken &ndash; de wegen der politie zijn ondoorgrondelijk &ndash; zal ik morgenavond vóór de voorstelling dezen &bdquo;<foreign lang=de>Grober Unfug</foreign>&rdquo; verwijderen. Waarom zouden wij mijn litterairen collega</hi> <hi rend=sc>Franken</hi> <hi>&apos;t pleiziertje misgunnen</hi>?
+
+
+    <p rend=signed><hi>Zeer de Uwe</hi>
+    <lb><hi rend=sc>Herm. Heijermans Jr.</hi></q>
+
+
+
+</div1>
+
+<divGen id=toc type=toc>
+
+<divGen type=Colophon>
+
+
+</back>
+</text>
+</TEI.2>
+
+<!--
+
+CHECKLIST (X = done; / = not applicable)
+
+Initial cleanup
+
+[ ] Check all pb-tags, and join lines
+[ ] Move all footnotes in-line
+[ ] Tag headers
+[ ] Fix all [** Proofer comments]
+[ ] Start all paragraphs with the p-tag
+[ ] Change b, sc, g tags to hi tags with correct attributes.
+[ ] Change tb tags to milestone tags.
+[ ] Fix multiple spaces in a row
+[ ] Verify all paragraphs start with p-tag, also those starting with a tag.
+
+TEI header
+
+[ ] Add TEI header.
+[ ] Fill in details in TEI header
+[ ] Verify Author dates and add to TEI header.
+[ ] Document on-line scan sources.
+[ ] Fill in description in noteStmt.
+[ ] Fill in keywords / Subjects
+[ ] Add auto-generated colophon divGen tag.
+[ ] Fill in reference to LOC record (https://catalog.loc.gov/).
+[ ] Fill in reference to OpenLibrary record (https://openlibrary.org).
+[ ] Fill in reference to WorldCat record (source and work) (https://www.worldcat.org).
+[ ] Generate unique epub-id. (https://www.guidgenerator.com/)
+
+Verse
+
+[ ] Tag all verse.
+[ ] Apply proper indentation: rend=&bdquo;indent(2)&rdquo;
+
+Lists
+
+[ ] Tag all lists.
+
+Tables
+
+[ ] Format tables
+[ ] Apply ditto-tags.
+
+Table of Contents
+
+[ ] Format table(s) of contents
+[ ] Link entries in table of contents
+[ ] Verify each link
+[ ] Compare with generated table of contents
+
+Images
+
+[ ] Include all illustrations
+[ ] Verify positioning of images makes sense.
+
+Spelling
+
+[ ] Verify generated wordlist
+[ ] Tag language usage
+
+Tools
+
+[ ] Verify Gutcheck
+[ ] Verify jeebees
+
+Miscellany
+
+[ ] Check for [Greek: ...] notation
+[ ] Curlify quotes
+[ ] Check for wrong quotes
+[ ] Disambiguate single quotes, apostrophes, and primes.
+[ ] Unwrap lines
+[ ] Check for lines not unwrapped
+[ ] Verify sequence of page-numbers
+[ ] Handle fractions, such as 1/2.
+[ ] Converted all fragments in uppercase to mixed case.
+
+Text Version
+
+[ ] Remove FIGURE notations
+[ ] Verify empty lines between chapter headings
+[ ] Verify empty lines around poetry and lists
+[ ] Center poetry
+[ ] Format title page
+[ ] Remove Ads
+[ ] Format Tables
+[ ] Verify Greek and other transliterations
+
+Additional Checks and Edits (Add as needed for a specific book)
+
+[ ] ....
+
+Posting
+
+[ ] Make sure dp-post@pgdp.net is cc-ed on upload
+
+Post-Posting
+
+[ ] Update status to 1.0 (i.e. Posted).
+[ ] Include PG number and posting date in metadata
+
+-->
